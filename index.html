@@ -6,27 +6,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello</title>
   <link rel="stylesheet" href="css/uikit.css">
+  <link rel="stylesheet" href="css/components/slideshow.css">
+  <link rel="stylesheet" href="css/components/dotnav.css">
+  <link rel="stylesheet" href="css/components/slidenav.css">
+  <link rel="stylesheet" href="css/components/accordion.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <div class="uk-grid toolbar">
-    <div class="uk-width-small-1-4">
-      <i class="uk-icon-truck"></i> <a href="#">Бесплатная доставка</a>
+  <div class="toolbar">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-truck"></i> <a href="#">Бесплатная доставка</a>
+        </div>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-calendar"></i> <a href="#">Возврат без проблем</a>
+        </div>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-tag"></i> <a href="#">Оригинальные товары</a>
+        </div>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-cc-visa"></i> <a href="#">Онлайн оплата</a>
+        </div>
+      </div>
     </div>
-    <div class="uk-width-small-1-4">
-      <i class="uk-icon-calendar"></i> <a href="#">Бесплатная доставка</a>
+  </div>
+  <div id="header" class="uk-container uk-container-center">
+    <header class="uk-grid">
+      <div class="uk-width-medium-1-3 name">
+        <div id="logo">Site name</div>
+        <div class="slogan">Super site for E-Commerce</div>
+      </div>
+      <div class="uk-width-medium-1-3 uk-form">
+        <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79 <a href="#">Заказать обратный звонок</a></div>
+        <form class="uk-width-1-1 uk-form-row uk-form-icon">
+          <input type="text" placeholder="поиск по каталогу..." class="uk-form-large uk-width-1-1">
+          <i class="uk-icon-search"></i>
+        </form>
+      </div>
+      <div class="uk-width-medium-1-3">
+        <div class="user uk-float-right">
+          <i class="uk-icon-sign-in" aria-hidden="true"></i>
+          <a href="#">Вход</a> | <a href="#">Регистрация</a>
+        </div>
+        <div class="uk-clearfix"></div>
+        <div class="shop_cart uk-float-right">
+          <i class="uk-icon-balance-scale" aria-hidden="true"></i>
+          <a href="#">Сравнение (0)</a>
+          <i class="uk-icon-shopping-basket" aria-hidden="true"></i>
+          <a href="#">Корзина (0)</a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <nav class="uk-navbar">
+  <div class="uk-container uk-container-center">
+    <ul class="uk-navbar-nav uk-hidden-small">
+      <li class="uk-active"><a href="">Главная</a></li>
+      <li class="uk-parent" data-uk-dropdown>
+        <a href="">Каталог</a>
+        <div class="uk-dropdown uk-dropdown-navbar">
+          <ul class="uk-nav uk-nav-navbar">
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Another item</a></li>
+            <li class="uk-nav-header">Header</li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Another item</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#">Separated item</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="">Оплата</a></li>
+      <li><a href="">Доставка</a></li>
+      <li><a href="">Контакты</a></li>
+    </ul>
+        <a href="#offcanvas-1" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+    <div class="uk-navbar-flip">
+      <a href="" class="uk-navbar-toggle uk-navbar-toggle-alt uk-visible-small"></a>
     </div>
-    <div class="uk-width-small-1-4">
-      <i class="uk-icon-tag"></i> <a href="#">Бесплатная доставка</a>
     </div>
-    <div class="uk-width-small-1-4">
-      <i class="uk-icon-cc-visa"></i> <a href="#">Бесплатная доставка</a>
+  </nav>
+  <div class="main-menu uk-accordion uk-visible-small" data-uk-accordion="{showfirst: false}">
+    <nav class="uk-navbar">
+    <div class="uk-container uk-container-center">
+      <a href="#" class="uk-navbar-toggle uk-accordion-title"></a>
+      </div>
+    </nav>
+    <div class="uk-navbar uk-accordion-content">
+      <ul class="uk-nav">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Another item</a></li>
+      </ul>
     </div>
+  </div>
+  <div id="offcanvas-1" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+      <div class="uk-panel">Lorem ipsum dolor sit amet, <a href="#">consetetur</a> sadipscing elitr.</div>
+    </div>
+  </div>
+  <div class="uk-slidenav-position" data-uk-slideshow>
+    <ul class="uk-slideshow">
+      <li><img src="img/placeholder_800x400_1.jpg" width="800" height="400" alt=""></li>
+      <li><img src="img/placeholder_800x400_2.jpg" width="800" height="400" alt=""></li>
+      <li><img src="img/placeholder_800x400_3.jpg" width="800" height="400" alt=""></li>
+    </ul>
+    <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" style="color: rgba(255,255,255,0.4)"></a>
+    <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" style="color: rgba(255,255,255,0.4)"></a>
+    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+      <li data-uk-slideshow-item="0"><a href="#">Item 1</a></li>
+      <li data-uk-slideshow-item="1"><a href="#">Item 2</a></li>
+      <li data-uk-slideshow-item="2"><a href="#">Item 3</a></li>
+    </ul>
   </div>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/uikit.js"></script>
+<script src="js/components/slideshow.js"></script>
+<script src="js/components/accordion.js"></script>
 <script src="js/main.js"></script>
 
 </html>
