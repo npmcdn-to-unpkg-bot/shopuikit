@@ -2,29 +2,60 @@
 body, * {
   font-family: "Open Sans", sans-serif;
 }
+@horizontalMargin: 20px;
+.marginBottom {
+  margin-bottom: @horizontalMargin;
+}
+.marginBottomSmall {
+  margin-bottom: 10px;
+}
 .toolbar {
   background-color: #666;
   color: #fff;
   padding: 10px 0;
   text-align: center;
+  .marginBottom;
   a {
     color: #fff;
   }
 }
+#main-slider {
+  .marginBottom;
+}
 #header {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  .marginBottom;
   .name #logo {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 10px;
     padding-top: 12px
   }
-  .user{
+  .phone {
+    margin-bottom: 8px;
+  }
+  .user {
     margin-bottom: 10px;
   }
 }
-.main-menu .uk-accordion-title{
+.main-menu .uk-accordion-title {
   margin-bottom: 0;
+}
+.product {
+  text-align: center;
+  img{
+    .marginBottomSmall;
+  }
+  .old-price {
+    text-decoration: line-through;
+    color: red;
+  }
+  .price {
+    font-weight: bold;
+    font-size: 20px;
+    .marginBottomSmall;
+  }
+  .uk-button-primary {
+    .marginBottomSmall;
+  }
 }

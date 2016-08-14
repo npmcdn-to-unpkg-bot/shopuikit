@@ -32,6 +32,7 @@
       </div>
     </div>
   </div>
+  <!-- toolbar -->
   <div id="header" class="uk-container uk-container-center">
     <header class="uk-grid">
       <div class="uk-width-medium-1-3 name">
@@ -40,8 +41,8 @@
       </div>
       <div class="uk-width-medium-1-3 uk-form">
         <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79 <a href="#">Заказать обратный звонок</a></div>
-        <form class="uk-width-1-1 uk-form-row uk-form-icon">
-          <input type="text" placeholder="поиск по каталогу..." class="uk-form-large uk-width-1-1">
+        <form class="search-field uk-width-1-1 uk-form-row uk-form-icon">
+          <input type="text" placeholder="Поиск по каталогу..." class="uk-width-1-1">
           <i class="uk-icon-search"></i>
         </form>
       </div>
@@ -60,38 +61,36 @@
       </div>
     </header>
   </div>
+  <!-- header -->
   <nav class="uk-navbar">
-  <div class="uk-container uk-container-center">
-    <ul class="uk-navbar-nav uk-hidden-small">
-      <li class="uk-active"><a href="">Главная</a></li>
-      <li class="uk-parent" data-uk-dropdown>
-        <a href="">Каталог</a>
-        <div class="uk-dropdown uk-dropdown-navbar">
-          <ul class="uk-nav uk-nav-navbar">
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Another item</a></li>
-            <li class="uk-nav-header">Header</li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Another item</a></li>
-            <li class="uk-nav-divider"></li>
-            <li><a href="#">Separated item</a></li>
-          </ul>
-        </div>
-      </li>
-      <li><a href="">Оплата</a></li>
-      <li><a href="">Доставка</a></li>
-      <li><a href="">Контакты</a></li>
-    </ul>
-        <a href="#offcanvas-1" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-    <div class="uk-navbar-flip">
-      <a href="" class="uk-navbar-toggle uk-navbar-toggle-alt uk-visible-small"></a>
-    </div>
+    <div class="uk-container uk-container-center">
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li class="uk-active"><a href="">Главная</a></li>
+        <li class="uk-parent" data-uk-dropdown>
+          <a href="">Каталог</a>
+          <div class="uk-dropdown uk-dropdown-navbar">
+            <ul class="uk-nav uk-nav-navbar">
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Another item</a></li>
+              <li class="uk-nav-header">Header</li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Another item</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#">Separated item</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="">Оплата</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <a href="#offcanvas-1" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
     </div>
   </nav>
-  <div class="main-menu uk-accordion uk-visible-small" data-uk-accordion="{showfirst: false}">
+  <!-- <div class="main-menu uk-accordion uk-visible-small" data-uk-accordion="{showfirst: false}">
     <nav class="uk-navbar">
-    <div class="uk-container uk-container-center">
-      <a href="#" class="uk-navbar-toggle uk-accordion-title"></a>
+      <div class="uk-container uk-container-center">
+        <a href="#" class="uk-navbar-toggle uk-accordion-title"></a>
       </div>
     </nav>
     <div class="uk-navbar uk-accordion-content">
@@ -100,13 +99,14 @@
         <li><a href="#">Another item</a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
   <div id="offcanvas-1" class="uk-offcanvas">
     <div class="uk-offcanvas-bar">
       <div class="uk-panel">Lorem ipsum dolor sit amet, <a href="#">consetetur</a> sadipscing elitr.</div>
     </div>
   </div>
-  <div class="uk-slidenav-position" data-uk-slideshow>
+  <!-- main menu -->
+  <div id="main-slider" class="uk-slidenav-position" data-uk-slideshow>
     <ul class="uk-slideshow">
       <li><img src="img/placeholder_800x400_1.jpg" width="800" height="400" alt=""></li>
       <li><img src="img/placeholder_800x400_2.jpg" width="800" height="400" alt=""></li>
@@ -120,11 +120,126 @@
       <li data-uk-slideshow-item="2"><a href="#">Item 3</a></li>
     </ul>
   </div>
+  <!-- slideshow -->
+  <div class="uk-container uk-container-center">
+  <h2>Top seller</h2>
+  <div class="uk-margin" data-uk-slideset="{small: 2, medium: 4, large: 6 , animation: 'scale', duration: 200}">
+    <div class="uk-slidenav-position uk-margin">
+      <div class="uk-slideset uk-grid uk-grid-small uk-flex-center">
+        <div class="product">
+          <img data-src="holder.js/200x300?text=01&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=02&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=03&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=04&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=05&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=06&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=07&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=08&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=09&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+        <div class="product">
+          <img data-src="holder.js/200x300?text=10&font=Open Sans&size=30&auto=yes" alt="">
+          <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+            <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+            <div class="name"><strong>Размеры:</strong> 50-51</div>
+            <div class="old-price">1500 $</div>
+            <div class="price">1000 $</div>
+            <button class="uk-button uk-width-1-1 uk-button-primary">В корзину</button>
+            <a class="uk-button uk-width-1-1">Подробнее</a>
+        </div>
+      </div>
+      <a href="#" class="uk-slidenav uk-slidenav-previous" data-uk-slideset-item="previous"></a>
+      <a href="#" class="uk-slidenav uk-slidenav-next" data-uk-slideset-item="next"></a>
+    </div>
+    <ul class="uk-slideset-nav uk-dotnav uk-flex-center"></ul>
+  </div>
+  </div>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/uikit.js"></script>
+<script src="js/holder.min.js"></script>
 <script src="js/components/slideshow.js"></script>
 <script src="js/components/accordion.js"></script>
+<script src="js/components/slideset.js"></script>
 <script src="js/main.js"></script>
 
 </html>
