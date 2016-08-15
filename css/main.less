@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic&subset=latin,cyrillic-ext);
-body, * {
+body, *, h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
 }
 /*--------------------------------------------------
@@ -52,9 +52,6 @@ body, * {
 }
 .product {
   text-align: center;
-  img{
-    // .marginBottomSmall;
-  }
   .old-price {
     text-decoration: line-through;
     color: red;
@@ -62,16 +59,54 @@ body, * {
   .price {
     font-weight: bold;
     font-size: 20px;
-    // .marginBottomSmall;
-  }
-  .uk-button-primary {
-    // .marginBottomSmall;
   }
 }
-#to-up {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -17px;
-  width: 34px;
+footer{
+  padding: 30px 0;
+  background-color: @lightGray;
+  color: @colorGray;
+  h3{
+    font-size: 20px;
+    color: @colorGray;
+  }
+  a{
+    color: #fff;
+    text-decoration: underline;
+  }
+  .social-links{
+    a{
+      font-size: 20px;
+      background: @darkGray;
+      display: block;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-right: 10px;
+      text-align: center;
+      i{
+        margin-top: 9px;
+      }
+    }
+    a:hover{
+      color: @colorGray;
+    }
+  }
+}
+.copy{
+  background: @darkGray;
+  color: @colorGray;
+  padding: 20px 0 20px;
+  a{
+    color: #fff;
+    text-decoration: underline;
+  }
+  #to-up {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -17px;
+    width: 34px;
+    background: @lightGray;
+    color: #fff;
+  }
 }
