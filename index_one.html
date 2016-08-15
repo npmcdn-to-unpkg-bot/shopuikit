@@ -10,75 +10,66 @@
   <link rel="stylesheet" href="css/components/dotnav.css">
   <link rel="stylesheet" href="css/components/slidenav.css">
   <link rel="stylesheet" href="css/components/accordion.css">
-  <link rel="stylesheet" href="css/components/search.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main_one.css">
   <link rel="stylesheet" href="css/components/sticky.css">
 </head>
 
 <body id="top">
-  <div class="toolbar" data-uk-sticky>
+  <div class="toolbar">
     <div class="uk-container uk-container-center">
       <div class="uk-grid">
-        <div class="uk-width-small-1-3">
-          <div class="user">
-            <i class="uk-icon-sign-in" aria-hidden="true"></i>
-            <a href="#">Вход</a> | <a href="#">Регистрация</a>
-          </div>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-truck"></i> <a href="#">Бесплатная доставка</a>
         </div>
-        <div class="uk-width-small-1-3">
-          <div id="currency-block" class="uk-text-center">
-            <select style="display:none;" id="site_currency" name="curency">
-              <option id="usd_curr" value="2">usd</option>
-              <option id="rub_curr" value="3">rub</option>
-              <option id="eur_curr" value="4">eur</option>
-            </select>
-            <a class="usd currency" data-id="2">USD</a> |
-            <a class="eur currency" data-id="4">EUR</a> |
-            <a class="rub currency active" data-id="3">RUB</a>
-          </div>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-calendar"></i> <a href="#">Возврат без проблем</a>
         </div>
-        <div id="cart-wish-compare" class="uk-width-small-1-3">
-          <ul class="uk-float-right">
-            <li><i class="uk-icon-balance-scale" aria-hidden="true"></i> <a href=""><span class="uk-hidden-small"> <span class="uk-badge uk-badge-notification ">0</span></a></a>
-            </li>
-            <li> | <i class="uk-icon-heart" aria-hidden="true"></i> <a href=""><span class="uk-hidden-small"> <span class="uk-badge uk-badge-notification ">0</span></a></a>
-            </li>
-            <li> | <i class="uk-icon-shopping-basket" aria-hidden="true"> <a href=""></i>1200.80$ <span class="uk-badge uk-badge-notification ">2</span></a>
-            </li>
-          </ul>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-tag"></i> <a href="#">Оригинальные товары</a>
+        </div>
+        <div class="uk-width-small-1-4">
+          <i class="uk-icon-cc-visa"></i> <a href="#">Онлайн оплата</a>
         </div>
       </div>
     </div>
-  </div>
   </div>
   <!-- toolbar -->
   <div id="header">
     <div class="uk-container uk-container-center">
       <header class="uk-grid">
-        <div class="uk-width-medium-2-10 name">
-          <div id="logo">MODX</div>
-          <div class="slogan">Awesome E-Store</div>
+        <div class="uk-width-medium-1-3 name">
+          <div id="logo">Site name</div>
+          <div class="slogan">Super site for E-Commerce</div>
         </div>
-        <div class="uk-width-medium-6-10">
-          <form class="uk-form">
-              <a href="">Использовать расширенный поиск</a>
-            <div class="uk-form-icon uk-width-">
-              <input type="text" placeholder="Поиск по каталогу..." class="uk-width-1-1">
-              <i class="uk-icon-search"></i>
-            </div>
+        <div class="uk-width-medium-1-3 uk-form">
+          <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79 <a href="#">Заказать обратный звонок</a></div>
+          <form class="search-field uk-width-1-1 uk-form-row uk-form-icon">
+            <input type="text" placeholder="Поиск по каталогу..." class="uk-width-1-1">
+            <i class="uk-icon-search"></i>
           </form>
         </div>
-        <div class="uk-width-medium-2-10">
+        <div class="uk-width-medium-1-3">
+          <div class="user uk-float-right">
+            <i class="uk-icon-sign-in" aria-hidden="true"></i>
+            <a href="#">Вход</a> | <a href="#">Регистрация</a>
+          </div>
+          <div class="uk-clearfix"></div>
           <div class="uk-float-right">
-            <a href="#">Заказать обратный звонок</a>
-            <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79</div>
+            <form class="uk-form">
+              <fieldset data-uk-margin>
+                <select id="currency">
+                  <option>USD</option>
+                  <option>EUR</option>
+                </select>
+              </fieldset>
+            </form>
           </div>
         </div>
       </header>
     </div>
   </div>
   <!-- header -->
-  <nav id="main-nav" class="uk-navbar">
+  <nav id="main-nav" class="uk-navbar" data-uk-sticky>
     <div class="uk-container uk-container-center">
       <ul class="uk-navbar-nav uk-hidden-small">
         <li class="uk-active"><a href="">Главная</a></li>
@@ -102,14 +93,29 @@
       </ul>
       <a href="#offcanvas-1" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
       <div class="uk-navbar-flip">
-        <!-- <div class="uk-navbar-content">
-          <form class="uk-search" data-uk-search="{flipDropdown:true, source:'../tests/components/_searchautocomplete.json'}">
-            <input class="uk-search-field" type="search" placeholder="поиск...">
-          </form>
-        </div> -->
+        <ul class="uk-navbar-nav">
+          <li><a href=""><i class="uk-icon-balance-scale" aria-hidden="true"></i> <span class="uk-hidden-small"> <span class="uk-badge uk-badge-notification ">0</span></a></a>
+          </li>
+          <li><a href=""><i class="uk-icon-heart" aria-hidden="true"></i> <span class="uk-hidden-small"> <span class="uk-badge uk-badge-notification ">0</span></a></a>
+          </li>
+          <li><a href=""><i class="uk-icon-shopping-basket" aria-hidden="true"></i> 1200.80$ <span class="uk-badge uk-badge-notification ">2</span></a></li>
+        </ul>
       </div>
     </div>
   </nav>
+  <!-- <div class="main-menu uk-accordion uk-visible-small" data-uk-accordion="{showfirst: false}">
+    <nav class="uk-navbar">
+      <div class="uk-container uk-container-center">
+        <a href="#" class="uk-navbar-toggle uk-accordion-title"></a>
+      </div>
+    </nav>
+    <div class="uk-navbar uk-accordion-content">
+      <ul class="uk-nav">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Another item</a></li>
+      </ul>
+    </div>
+  </div> -->
   <div id="offcanvas-1" class="uk-offcanvas">
     <div class="uk-offcanvas-bar">
       <div class="uk-panel">Lorem ipsum dolor sit amet, <a href="#">consetetur</a> sadipscing elitr.</div>
@@ -605,7 +611,6 @@
 <script src="js/holder.min.js"></script>
 <script src="js/components/slideshow.js"></script>
 <script src="js/components/accordion.js"></script>
-<script src="js/components/search.min.js"></script>
 <script src="js/components/slideset.js"></script>
 <script src="js/components/sticky.min.js"></script>
 <script src="js/main.js"></script>
