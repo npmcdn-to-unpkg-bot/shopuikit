@@ -12,27 +12,18 @@ body, *, h1, h2, h3 {
   MARGINS
 --------------------------------------------------*/
 @horizontalMargin: 20px;
-.marginBottom {
-  margin-bottom: @horizontalMargin;
-}
-.marginBottomSmall {
-  margin-bottom: 10px;
-}
 .toolbar {
   background-color: #666;
   color: #fff;
   padding: 10px 0;
   text-align: center;
-  .marginBottom;
   a {
     color: #fff;
   }
 }
-#main-slider {
-  .marginBottom;
-}
 #header {
-  .marginBottom;
+  padding: 20px 0;
+  background-color: #fff;
   .name #logo {
     font-size: 30px;
     font-weight: 900;
@@ -46,6 +37,16 @@ body, *, h1, h2, h3 {
   .user {
     margin-bottom: 10px;
   }
+}
+#main-nav{
+  .uk-navbar-flip{
+    .uk-badge{
+      font-weight: normal;
+    }
+  }
+}
+#main-slider {
+  margin-bottom: @horizontalMargin;
 }
 .main-menu .uk-accordion-title {
   margin-bottom: 0;
