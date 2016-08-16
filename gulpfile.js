@@ -14,7 +14,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('html', function() {
-  gulp.src('index.html')
+  gulp.src('./*.html')
   .pipe(connect.reload());
 });
 
@@ -36,7 +36,7 @@ gulp.task('js', function () {
 gulp.task('watch', function() {
   gulp.watch("css/*.less", ['css']);
   gulp.watch("js/*.js", ['js']);
-  gulp.watch("index.html", ['html']);
+  gulp.watch("*.html", ['html']);
 });
 
 gulp.task('default', ['watch', 'connect']);

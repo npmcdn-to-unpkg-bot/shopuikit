@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello</title>
+  <link rel="stylesheet" href="css/uikit.css">
+  <link rel="stylesheet" href="css/components/slideshow.css">
+  <link rel="stylesheet" href="css/components/dotnav.css">
+  <link rel="stylesheet" href="css/components/slidenav.css">
+  <link rel="stylesheet" href="css/components/accordion.css">
+  <link rel="stylesheet" href="css/components/search.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components/sticky.css">
+</head>
+
+<body id="top">
+  <div class="toolbar" data-uk-sticky>
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-medium-1-3 uk-width-small-1-2 uk-text-center-small">
+          <div class="user">
+            <i class="uk-icon-sign-in" aria-hidden="true"></i>
+            <a href="#">Вход</a> | <a href="#">Регистрация</a>
+          </div>
+        </div>
+        <div class="uk-width-medium-1-3 uk-hidden-small">
+          <div id="currency-block" class="uk-text-center">
+            <select style="display:none;" id="site_currency" name="curency">
+              <option id="usd_curr" value="2">usd</option>
+              <option id="rub_curr" value="3">rub</option>
+              <option id="eur_curr" value="4">eur</option>
+            </select>
+            <a class="usd currency" data-id="2">USD</a> |
+            <a class="eur currency" data-id="4">EUR</a> |
+            <a class="rub currency active" data-id="3">RUB</a>
+          </div>
+        </div>
+        <div id="cart-wish-compare" class="uk-width-medium-1-3 uk-width-small-1-2 uk-text-center-small uk-text-right">
+          <i class="uk-icon-balance-scale" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification ">0</span></a></a>
+          | <i class="uk-icon-heart" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification ">0</span></a></a>
+          | <i class="uk-icon-shopping-basket" aria-hidden="true"> <a data-uk-offcanvas="{target:'#offcanvas-cart'}"></i>1200.80$ <span class="uk-badge uk-badge-notification ">2</span></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="offcanvas-cart" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+      <div class="uk-panel">
+        <h3 class="uk-panel-title">Корзина</h3>
+        <table class="bh-offcanvas-shopping-cart uk-table uk-table-middle uk-margin-small-top uk-margin-bottom-remove">
+          <tbody>
+            <tr>
+              <td>
+                <a href="shop-singleproduct.html">
+                  <img src="img/shop_product-01-1.jpg" width="100" height="75" alt="Product Image">
+                </a>
+              </td>
+              <td>
+                <a class="bh-text-uppercase" href="shop-singleproduct.html">Workboots</a>
+                <br> $119.90
+              </td>
+              <td class="uk-text-center"><a href="#"><i class="uk-icon-times"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="shop-singleproduct.html">
+                  <img src="img/shop_product-07-1.jpg" width="100" height="75" alt="Product Image">
+                </a>
+              </td>
+              <td>
+                <a class="bh-text-uppercase" href="shop-singleproduct.html">Wayfarer Glasses</a>
+                <br> $89.90
+              </td>
+              <td class="uk-text-center"><a href="#"><i class="uk-icon-times"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="shop-checkout.html" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top">Перейти к корзине</a>
+      </div>
+    </div>
+  </div>
+  <div id="header">
+    <div class="uk-container uk-container-center">
+      <header class="uk-grid">
+        <div class="uk-width-large-1-3 name uk-width-medium-1-3 uk-width-small-1-2 uk-grid-width-1-1 uk-text-center-small">
+          <div id="logo">MODX</div>
+          <div class="slogan">Awesome E-Store</div>
+        </div>
+        <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-hidden-small">
+          <form class="uk-form">
+            <a href="" class="">Использовать расширенный поиск</a>
+            <div class="uk-form-icon uk-width-">
+              <input type="text" placeholder="Поиск по каталогу..." class="uk-width-1-1">
+              <i class="uk-icon-search"></i>
+            </div>
+          </form>
+        </div>
+        <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-2 uk-grid-width-1-1 uk-text-right uk-text-center-small">
+          <a href="#modal6" data-uk-modal="{center:true}">Заказать обратный звонок</a>
+          <div id="modal6" class="uk-modal">
+            <div class="uk-modal-dialog">
+              <button type="button" class="uk-modal-close uk-close"></button>
+              <div class="uk-modal-header">
+                <h2 class="uk-text-center">Заказать обратный звонок</h2>
+              </div>
+              <form class="uk-form">
+                <div class="uk-grid uk-grid-small">
+                  <div class="uk-width-1-1">
+                    <input type="text" placeholder="+375 29-79-108-79" class="uk-width-1-1 uk-form-large uk-margin-bottom">
+                  </div>
+                  <div class="uk-width-1-1">
+                    <button type="submit" class="uk-width-1-1 uk-button uk-button-large uk-button-primary">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79</div>
+        </div>
+      </header>
+    </div>
+  </div>
+  <nav id="main-nav" class="uk-navbar">
+    <div class="uk-container uk-container-center">
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li class="uk-active"><a href="">Главная</a></li>
+        <li class="uk-parent" data-uk-dropdown>
+          <a href="">Каталог</a>
+          <div class="uk-dropdown uk-dropdown-navbar">
+            <ul class="uk-nav uk-nav-navbar">
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Another item</a></li>
+              <li class="uk-nav-header">Header</li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Another item</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#">Separated item</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="">Оплата</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <a href="#offcanvas-menu" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+      <div class="uk-navbar-flip uk-visible-small">
+        <div class="uk-navbar-content">
+          <form class="uk-search">
+            <input class="uk-search-field" type="search" placeholder="Поиск...">
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="offcanvas-menu" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+      <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+        <li class="uk-active"><a href="">Главная</a></li>
+        <li class="uk-parent">
+          <a href="#">Каталог</a>
+          <ul class="uk-nav-sub">
+            <li><a href="">Sub item</a></li>
+            <li><a href="">Sub item</a>
+              <ul>
+                <li><a href="">Sub item</a></li>
+                <li><a href="">Sub item</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Оплата</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="">Контакты</a></li>
+        <!-- <li class="uk-nav-header">Header</li>
+        <li class="uk-parent"><a href=""><i class="uk-icon-star"></i> Parent</a></li>
+        <li><a href=""><i class="uk-icon-twitter"></i> Item</a></li>
+        <li class="uk-nav-divider"></li>
+        <li><a href=""><i class="uk-icon-rss"></i> Item</a></li> -->
+      </ul>
+    </div>
+  </div>
+  <div class="uk-container uk-container-center">
+    <div class="uk-grid">
+      <div class="uk-width-2-10">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui ullam. Laboriosam eius accusantium officia, veniam saepe quia blanditiis! Est a at culpa maiores aspernatur voluptates saepe laudantium, iure sequi.</p>
+        <p>Quisquam nostrum, obcaecati nam, laboriosam magni cum dolor eaque temporibus reiciendis aperiam cupiditate! Omnis eos deserunt cupiditate facilis iusto, ipsum doloremque aperiam, numquam pariatur nisi asperiores porro dolores officiis perferendis.</p>
+        <p>Officiis, maxime minima! Aut eligendi magni, expedita asperiores corporis tempora sint veritatis adipisci quaerat vitae recusandae tempore cumque! Beatae odit cum maiores. Rerum, vitae tempora ducimus totam, magnam fugiat suscipit!</p>
+      </div>
+      <div class="uk-width-8-10">
+        <div id="catalog" class="uk-grid uk-grid-small">
+          <div class="product uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail uk-visible-hover">
+              <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-danger">АКЦИЯ</div>
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=01&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail">
+              <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-success">ТОП</div>
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=02&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail">
+              <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right">ПОПУЛЯРНОЕ</div>
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail">
+              <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right">ПОПУЛЯРНОЕ</div>
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail">
+              <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-success">ТОП</div>
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=02&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="uk-grid uk-margin-bottom">
+      <div class="uk-width-1-1">
+        <h1>Crum dolor sit amet, consectetur adipisicing elit.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempora dolor veritatis nesciunt illo pariatur perspiciatis praesentium optio ab temporibus ea, enim delectus incidunt modi aut ullam aliquam placeat! Provident officiis recusandae earum repellat excepturi aperiam assumenda quibusdam aliquid. Ducimus debitis nisi hic mollitia laudantium rerum maxime, nulla non explicabo.</p>
+        <p>Corrupti assumenda culpa, perferendis nisi in eius numquam, ipsam ratione modi libero dolore a molestias facere! Itaque provident quaerat dolor perferendis officia architecto, quidem, cupiditate omnis quia natus soluta ex fugit labore voluptatem! Dolorem et beatae doloribus blanditiis hic corporis inventore sed, id odit. Sed nobis labore nemo modi reprehenderit.</p>
+        <p>Omnis tenetur voluptas dolore sint, mollitia, velit dolores consequuntur enim. Perspiciatis, iure, eos. Sint itaque blanditiis id! Veniam officiis eos repellendus expedita vero in, aspernatur similique corrupti iusto necessitatibus sequi obcaecati! Dignissimos, asperiores. Veniam tempore, doloribus nisi, quae vitae voluptate consequatur veritatis, incidunt quis iste earum non laboriosam possimus voluptas.</p>
+        <p>Ab omnis vel quia eveniet distinctio, adipisci aliquam odio molestias ipsum neque? Eum blanditiis, expedita ipsum, enim officiis commodi. Laborum optio consequuntur tempora voluptates? Animi similique vel sapiente inventore, exercitationem, libero nesciunt placeat magnam quis doloremque recusandae enim nemo sequi, obcaecati deleniti itaque maxime laborum ducimus quia cupiditate possimus ex.</p>
+        <p>Fuga aliquid nobis provident libero similique porro perferendis beatae dolore atque, ratione doloremque ipsum, aperiam earum ullam architecto, quod eos recusandae explicabo fugiat natus commodi doloribus. Voluptas similique aliquid quo vitae ducimus nam voluptates, aperiam in fugiat dolore dignissimos quae rem dicta repellendus, officia laborum voluptatum officiis minima, iste itaque.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Информация</h3>
+          <ul>
+            <li><a href="#">Обмен и возврат</a></li>
+            <li><a href="#">Бренды</a></li>
+            <li><a href="#">Акции и скидки</a></li>
+            <li><a href="#">Доставка и Оплата</a></li>
+            <li><a href="#">Размерные таблицы</a></li>
+            <li><a href="#">Публичный договор</a></li>
+          </ul>
+        </div>
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Контакты</h3>
+          <div>+375 29 79-108-79 (МТС)</div>
+          <div>+796 45 33-700-94 (MTC)</div>
+          <div><i class="uk-icon-industry  "></i> Беларусь, г. Брест, ул. Мошенского, 78</div>
+          <i class="uk-icon-map"></i> <a href="#">Посмотреть на карте </a>
+          <br>
+          <!-- <i class="uk-icon-paper-plane"></i>  --><a href="mailto:#">triko_by@mail.ru</a>
+        </div>
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Подписка на новости</h3>
+          <p>Узнавайте первыми о новых акция, распродажах и новостях моды - подпишитесь на email рассылку</p>
+          <form class="uk-form uk-width-1-1">
+            <!-- <div class="uk-form-icon uk-width-1-1"> -->
+            <!-- <i class="uk-icon-envelope"></i> -->
+            <input class="uk-width-1-1 uk-margin-small-bottom" type="text" placeholder="Введите свой email">
+            <button class="uk-width-1-1 uk-button"><i class="uk-icon-paper-plane"></i> Подписаться</button>
+            <!-- </div> -->
+          </form>
+        </div>
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Социальные сети</h3>
+          <p>Следите за обновлением каталога на наших страницах в социальных сетях</p>
+          <div class="social-links">
+            <a href="#" class="uk-border-circle"><i class="uk-icon-vk"></i></a>
+            <a href="#" class="uk-border-circle"><i class="uk-icon-facebook"></i></a>
+            <a href="#" class="uk-border-circle"><i class="uk-icon-twitter"></i></a>
+            <a href="#" class="uk-border-circle"><i class="uk-icon-google-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copy uk-position-relative">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-1-2">Интернет-магазин «ТРИКО» © 2013 – 2016</div>
+        <div class="uk-width-1-2 uk-text-right"><a href="#">Создание интернет-магазина на MODX Revolution</a></div>
+        <a href="#top" id="to-up" class="uk-text-center uk-button" data-uk-smooth-scroll><i class="uk-icon-angle-double-up"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/uikit.js"></script>
+<script src="js/holder.min.js"></script>
+<script src="js/components/slideshow.js"></script>
+<script src="js/components/accordion.js"></script>
+<script src="js/components/search.min.js"></script>
+<script src="js/components/slideset.js"></script>
+<script src="js/components/sticky.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

@@ -16,6 +16,10 @@ body, *, h1, h2, h3 {
 --------------------------------------------------*/
 
 @horizontalMargin: 20px;
+
+/*--------------------------------------------------
+  INDEX PAGE
+--------------------------------------------------*/
 .toolbar {
   background-color: #666;
   color: #fff;
@@ -23,8 +27,13 @@ body, *, h1, h2, h3 {
   a {
     color: #fff;
   }
-  #cart-wish-compare ul li {
-    display: inline-block;
+  #cart-wish-compare {
+    ul li {
+      display: inline-block;
+    }
+    .uk-badge {
+      font-weight: normal;
+    }
   }
 }
 #header {
@@ -118,16 +127,18 @@ footer {
   }
 }
 #offcanvas-cart .uk-offcanvas-bar {
-/*   background-color: #E6E6E6;
-h3 {
-  color: #000;
-} */
   .uk-table td, .uk-table th {
     padding: 0 10px 10px 0;
-    // color: #000;
   }
-  .uk-table a{
+  .uk-table a {
     text-decoration: underline;
     color: #fff;
   }
+}
+
+/*--------------------------------------------------
+  CATALOG
+--------------------------------------------------*/
+#catalog .product.uk-panel{
+  margin-bottom: 10px;
 }

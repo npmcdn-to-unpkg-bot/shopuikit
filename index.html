@@ -22,7 +22,7 @@
         <div class="uk-width-medium-1-3 uk-width-small-1-2 uk-text-center-small">
           <div class="user">
             <i class="uk-icon-sign-in" aria-hidden="true"></i>
-            <a href="#">Вход</a> | <a href="#">Регистрация</a>
+            <a href="#login" data-uk-modal>Вход / Регистрация</a>
           </div>
         </div>
         <div class="uk-width-medium-1-3 uk-hidden-small">
@@ -198,9 +198,9 @@
   </div>
   <div class="uk-container uk-container-center">
     <ul class="uk-tab" data-uk-switcher="{connect:'#products-set'}">
-      <li class="uk-text-large uk-text-center uk-width-1-3 uk-active"><a href="#">Топ продаж</a></li>
-      <li class="uk-text-large uk-text-center uk-width-1-3"><a href="#">Акционные товары</a></li>
-      <li class="uk-text-large uk-text-center uk-width-1-3"><a href="#">Популярные товары</a></li>
+      <li class="uk-text-large uk-text-center uk-width-1-3 uk-active"><a href="#">Топ</a></li>
+      <li class="uk-text-large uk-text-center uk-width-1-3"><a href="#">Акционные</a></li>
+      <li class="uk-text-large uk-text-center uk-width-1-3"><a href="#">Популярные</a></li>
     </ul>
     <ul id="products-set" class="uk-switcher uk-margin">
       <li class="uk-active">
@@ -639,9 +639,9 @@
           <p>Узнавайте первыми о новых акция, распродажах и новостях моды - подпишитесь на email рассылку</p>
           <form class="uk-form uk-width-1-1">
             <!-- <div class="uk-form-icon uk-width-1-1"> -->
-              <!-- <i class="uk-icon-envelope"></i> -->
-              <input class="uk-width-1-1 uk-margin-small-bottom" type="text" placeholder="Введите свой email">
-              <button class="uk-width-1-1 uk-button"><i class="uk-icon-paper-plane"></i> Подписаться</button>
+            <!-- <i class="uk-icon-envelope"></i> -->
+            <input class="uk-width-1-1 uk-margin-small-bottom" type="text" placeholder="Введите свой email">
+            <button class="uk-width-1-1 uk-button"><i class="uk-icon-paper-plane"></i> Подписаться</button>
             <!-- </div> -->
           </form>
         </div>
@@ -665,6 +665,62 @@
         <div class="uk-width-1-2 uk-text-right"><a href="#">Создание интернет-магазина на MODX Revolution</a></div>
         <a href="#top" id="to-up" class="uk-text-center uk-button" data-uk-smooth-scroll><i class="uk-icon-angle-double-up"></i></a>
       </div>
+    </div>
+  </div>
+  <div id="login" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a class="uk-modal-close uk-close"></a>
+      <ul class="uk-tab uk-grid uk-grid-small uk-margin-top" data-uk-tab="{connect:'#login-tab'}">
+        <li class="uk-width-1-2 uk-text-large uk-active uk-text-center"><a href="#">Login</a></li>
+        <li class="uk-width-1-2 uk-text-large uk-text-center"><a href="#">Register</a></li>
+      </ul>
+      <ul id="login-tab" class="uk-switcher uk-margin">
+        <li class="uk-active">
+          <form class="uk-form">
+            <div class="uk-grid" data-uk-margin="{cls:'uk-margin-top'}">
+              <div class="uk-width-1-1 uk-text-center">
+                <h3>I'm already a member</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                  <br> sed diam nonumy eirmod tempor invidunt.</p>
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Username" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Password" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1 uk-text-center">
+                <label>
+                  <input type="checkbox"> Remember me</label>
+                <a class="uk-margin-left" href="#">Lost Password?</a>
+              </div>
+              <div class="uk-width-1-1 uk-text-center">
+                <button class="uk-button uk-text-center uk-button-large">Login</button>
+              </div>
+            </div>
+          </form>
+        </li>
+        <li>
+          <form class="uk-form">
+            <div class="uk-grid" data-uk-margin="{cls:'uk-margin-top'}">
+              <div class="uk-width-1-1 uk-text-center">
+                <h3>I'm new here</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                  <br> sed diam nonumy eirmod tempor invidunt.</p>
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Username" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Password" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1 uk-text-center">
+                <button class="uk-button uk-text-center uk-button-large">Register</button>
+              </div>
+            </div>
+          </form>
+        </li>
+      </ul>
     </div>
   </div>
 </body>
