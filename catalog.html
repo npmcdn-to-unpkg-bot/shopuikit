@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hello</title>
   <link rel="stylesheet" href="css/uikit.css">
+  <!-- <link rel="stylesheet" href="css/flat.css"> -->
   <link rel="stylesheet" href="css/components/slideshow.css">
   <link rel="stylesheet" href="css/components/dotnav.css">
   <link rel="stylesheet" href="css/components/slidenav.css">
@@ -20,7 +21,7 @@
   <div class="toolbar" data-uk-sticky>
     <div class="uk-container uk-container-center">
       <div class="uk-grid">
-        <div class="uk-width-medium-1-3 uk-width-small-1-2 uk-text-center-small">
+        <div class="uk-width-medium-1-3 uk-width-small-2-5 uk-text-center-small">
           <div class="user">
             <i class="uk-icon-sign-in" aria-hidden="true"></i>
             <a href="#">Вход</a> | <a href="#">Регистрация</a>
@@ -38,7 +39,7 @@
             <a class="rub currency active" data-id="3">RUB</a>
           </div>
         </div>
-        <div id="cart-wish-compare" class="uk-width-medium-1-3 uk-width-small-1-2 uk-text-center-small uk-text-right">
+        <div id="cart-wish-compare" class="uk-width-medium-1-3 uk-width-small-3-5 uk-text-center-small uk-text-right">
           <i class="uk-icon-balance-scale" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification ">0</span></a></a>
           | <i class="uk-icon-heart" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification ">0</span></a></a>
           | <i class="uk-icon-shopping-basket" aria-hidden="true"> <a data-uk-offcanvas="{target:'#offcanvas-cart'}"></i>1200.80$ <span class="uk-badge uk-badge-notification ">2</span></a>
@@ -175,7 +176,7 @@
   </div>
   <div class="uk-container uk-container-center">
     <div class="uk-grid">
-      <div class="uk-width-large-2-10 uk-width-medium-3-10">
+      <div class="uk-width-large-2-10 uk-width-medium-3-10 uk-width-small-4-10 uk-hidden-small">
         <div class="uk-panel uk-panel-box  uk-margin-top">
           <h3 class="uk-panel-title">Производители</h3>
           <ul class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav>
@@ -198,66 +199,69 @@
             </li>
           </ul>
         </div>
-        <form action="" class="uk-form">
-          <div class="filter_block uk-margin-top">
-            <div class="filter_head">
-              <h3>Тип одежды</h3></div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__0" name="f_kind[]" value="Блузки" />
-              <label for="kind__0">Блузки</label>
+        <div class="uk-clearfix uk-margin-bottom"></div>
+        <div class="uk-panel uk-panel-box uk-panel-box-secondary">
+          <form action="" class="uk-form">
+            <div class="filter_block">
+              <div class="filter_head">
+                <h3 class="uk-panel-title">Тип одежды</h3></div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__0" name="f_kind[]" value="Блузки" />
+                <label for="kind__0">Блузки</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__1" name="f_kind[]" value="Брюки" />
+                <label for="kind__1">Брюки</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__2" name="f_kind[]" value="Джемпер" />
+                <label for="kind__2">Джемпер</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__3" name="f_kind[]" value="Жакеты" />
+                <label for="kind__3">Жакеты</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__4" name="f_kind[]" value="Жилеты" />
+                <label for="kind__4">Жилеты</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__5" name="f_kind[]" value="Кардиганы" />
+                <label for="kind__5">Кардиганы</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__6" name="f_kind[]" value="Комбинезон" />
+                <label for="kind__6">Комбинезон</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="kind__7" name="f_kind[]" value="Комплект" />
+                <label for="kind__7">Комплект</label>
+              </div>
             </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__1" name="f_kind[]" value="Брюки" />
-              <label for="kind__1">Брюки</label>
+            <div class="filter_block uk-margin-top">
+              <div class="filter_head">
+                <h3 class="uk-panel-title">Статус</h3></div>
+              <div class="filter_row">
+                <input type="checkbox" id="status__0" name="f_status[like][]" value="Новинка" />
+                <label for="status__0">Новинка</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="status__2" name="f_status[like][]" value="Нарядное" />
+                <label for="status__2">Нарядное</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="status__3" name="f_status[like][]" value="Распродажа" />
+                <label for="status__3">Распродажа</label>
+              </div>
+              <div class="filter_row">
+                <input type="checkbox" id="status__4" name="f_status[like][]" value="Хит продаж" />
+                <label for="status__4">Хит продаж</label>
+              </div>
             </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__2" name="f_kind[]" value="Джемпер" />
-              <label for="kind__2">Джемпер</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__3" name="f_kind[]" value="Жакеты" />
-              <label for="kind__3">Жакеты</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__4" name="f_kind[]" value="Жилеты" />
-              <label for="kind__4">Жилеты</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__5" name="f_kind[]" value="Кардиганы" />
-              <label for="kind__5">Кардиганы</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__6" name="f_kind[]" value="Комбинезон" />
-              <label for="kind__6">Комбинезон</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="kind__7" name="f_kind[]" value="Комплект" />
-              <label for="kind__7">Комплект</label>
-            </div>
-          </div>
-          <div class="filter_block uk-margin-top">
-            <div class="filter_head">
-              <h3>Статус</h3></div>
-            <div class="filter_row">
-              <input type="checkbox" id="status__0" name="f_status[like][]" value="Новинка" />
-              <label for="status__0">Новинка</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="status__2" name="f_status[like][]" value="Нарядное" />
-              <label for="status__2">Нарядное</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="status__3" name="f_status[like][]" value="Распродажа" />
-              <label for="status__3">Распродажа</label>
-            </div>
-            <div class="filter_row">
-              <input type="checkbox" id="status__4" name="f_status[like][]" value="Хит продаж" />
-              <label for="status__4">Хит продаж</label>
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-      <div class="uk-width-large-8-10 uk-width-medium-7-10">
+      <div class="uk-width-large-8-10 uk-width-medium-7-10 uk-width-small-1-1">
         <h1 class="uk-margin-top">Consectetur adipisicing elit. Perspiciatis, assumenda.</h1>
         <ul class="uk-breadcrumb">
           <li><a href="">Главная</a></li>
@@ -266,13 +270,13 @@
         </ul>
         <div class="uk-margin-bottom">
           <div class="uk-grid">
-            <div class="uk-width-medium-1-3">
+            <div class="uk-width-medium-1-3 uk-width-small-1-5 uk-width-3-10">
               <div class="uk-button-group">
                 <a class="uk-button uk-active" href=""><i class="uk-icon-th"></i></a>
                 <a class="uk-button" href=""><i class="uk-icon-th-list"></i></a>
               </div>
             </div>
-            <div class="uk-width-medium-2-3">
+            <div class="uk-width-medium-2-3 uk-width-small-4-5 uk-width-7-10">
               <form class="uk-form uk-float-right">
                 <fieldset data-uk-margin>
                   <select class="f_sortby" name="sortby">
@@ -290,7 +294,7 @@
           </div>
         </div>
         <div id="catalog" class="uk-grid uk-grid-small">
-          <div class="product uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail uk-visible-hover">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-danger">АКЦИЯ</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=01&font=Open Sans&size=30&auto=yes" alt="">
@@ -303,7 +307,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-success">ТОП</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=02&font=Open Sans&size=30&auto=yes" alt="">
@@ -316,7 +320,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right">ПОПУЛЯРНОЕ</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
@@ -329,7 +333,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail">
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
               <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
@@ -341,7 +345,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail">
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
               <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
@@ -353,7 +357,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right">ПОПУЛЯРНОЕ</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
@@ -366,7 +370,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-success">ТОП</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=02&font=Open Sans&size=30&auto=yes" alt="">
@@ -379,7 +383,7 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
-          <div class="product uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+          <div class="product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2">
             <div class="uk-thumbnail uk-visible-hover">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-danger">АКЦИЯ</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=01&font=Open Sans&size=30&auto=yes" alt="">
