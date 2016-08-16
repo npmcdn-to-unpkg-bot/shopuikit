@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/components/slidenav.css">
   <link rel="stylesheet" href="css/components/accordion.css">
   <link rel="stylesheet" href="css/components/search.css">
+  <link rel="stylesheet" href="css/components/form-advanced.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/components/sticky.css">
 </head>
@@ -162,34 +163,132 @@
         <li class="uk-parent">
           <a href="#">Каталог</a>
           <ul class="uk-nav-sub">
-            <li><a href="">Sub item</a></li>
-            <li><a href="">Sub item</a>
-              <ul>
-                <li><a href="">Sub item</a></li>
-                <li><a href="">Sub item</a></li>
-              </ul>
-            </li>
+            <li><a href="">Куртки</a></li>
+            <li><a href="">Кардиганы</a></li>
           </ul>
         </li>
         <li><a href="">Оплата</a></li>
         <li><a href="">Доставка</a></li>
         <li><a href="">Контакты</a></li>
-        <!-- <li class="uk-nav-header">Header</li>
-        <li class="uk-parent"><a href=""><i class="uk-icon-star"></i> Parent</a></li>
-        <li><a href=""><i class="uk-icon-twitter"></i> Item</a></li>
-        <li class="uk-nav-divider"></li>
-        <li><a href=""><i class="uk-icon-rss"></i> Item</a></li> -->
       </ul>
     </div>
   </div>
   <div class="uk-container uk-container-center">
     <div class="uk-grid">
-      <div class="uk-width-2-10">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui ullam. Laboriosam eius accusantium officia, veniam saepe quia blanditiis! Est a at culpa maiores aspernatur voluptates saepe laudantium, iure sequi.</p>
-        <p>Quisquam nostrum, obcaecati nam, laboriosam magni cum dolor eaque temporibus reiciendis aperiam cupiditate! Omnis eos deserunt cupiditate facilis iusto, ipsum doloremque aperiam, numquam pariatur nisi asperiores porro dolores officiis perferendis.</p>
-        <p>Officiis, maxime minima! Aut eligendi magni, expedita asperiores corporis tempora sint veritatis adipisci quaerat vitae recusandae tempore cumque! Beatae odit cum maiores. Rerum, vitae tempora ducimus totam, magnam fugiat suscipit!</p>
+      <div class="uk-width-large-2-10 uk-width-medium-3-10">
+        <div class="uk-panel uk-panel-box  uk-margin-top">
+          <h3 class="uk-panel-title">Производители</h3>
+          <ul class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav>
+            <li class="uk-active"><a href="#">Aria Style</a></li>
+            <li><a href="#">Camelia</a></li>
+            <li class="uk-parent">
+              <a href="#">Djerza</a>
+              <ul class="uk-nav-sub">
+                <li><a href="#">Платья</a></li>
+                <li><a href="#">Шорты</a>
+                </li>
+              </ul>
+            </li>
+            <li class="uk-parent">
+              <a href="#">Olegran</a>
+              <ul class="uk-nav-sub">
+                <li><a href="#">Костюмы</a></li>
+                <li><a href="#">Блузки</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form action="" class="uk-form">
+          <div class="filter_block uk-margin-top">
+            <div class="filter_head">
+              <h3>Тип одежды</h3></div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__0" name="f_kind[]" value="Блузки" />
+              <label for="kind__0">Блузки</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__1" name="f_kind[]" value="Брюки" />
+              <label for="kind__1">Брюки</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__2" name="f_kind[]" value="Джемпер" />
+              <label for="kind__2">Джемпер</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__3" name="f_kind[]" value="Жакеты" />
+              <label for="kind__3">Жакеты</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__4" name="f_kind[]" value="Жилеты" />
+              <label for="kind__4">Жилеты</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__5" name="f_kind[]" value="Кардиганы" />
+              <label for="kind__5">Кардиганы</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__6" name="f_kind[]" value="Комбинезон" />
+              <label for="kind__6">Комбинезон</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="kind__7" name="f_kind[]" value="Комплект" />
+              <label for="kind__7">Комплект</label>
+            </div>
+          </div>
+          <div class="filter_block uk-margin-top">
+            <div class="filter_head">
+              <h3>Статус</h3></div>
+            <div class="filter_row">
+              <input type="checkbox" id="status__0" name="f_status[like][]" value="Новинка" />
+              <label for="status__0">Новинка</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="status__2" name="f_status[like][]" value="Нарядное" />
+              <label for="status__2">Нарядное</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="status__3" name="f_status[like][]" value="Распродажа" />
+              <label for="status__3">Распродажа</label>
+            </div>
+            <div class="filter_row">
+              <input type="checkbox" id="status__4" name="f_status[like][]" value="Хит продаж" />
+              <label for="status__4">Хит продаж</label>
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="uk-width-8-10">
+      <div class="uk-width-large-8-10 uk-width-medium-7-10">
+        <h1 class="uk-margin-top">Consectetur adipisicing elit. Perspiciatis, assumenda.</h1>
+        <ul class="uk-breadcrumb">
+          <li><a href="">Главная</a></li>
+          <li><a href="">Каталог</a></li>
+          <li class="uk-active"><span>Категория</span></li>
+        </ul>
+        <div class="uk-margin-bottom">
+          <div class="uk-grid">
+            <div class="uk-width-medium-1-3">
+              <div class="uk-button-group">
+                <a class="uk-button uk-active" href=""><i class="uk-icon-th"></i></a>
+                <a class="uk-button" href=""><i class="uk-icon-th-list"></i></a>
+              </div>
+            </div>
+            <div class="uk-width-medium-2-3">
+              <form class="uk-form uk-float-right">
+                <fieldset data-uk-margin>
+                  <select class="f_sortby" name="sortby">
+                    <option value="pagetitle">по названию</option>
+                    <option value="price">по цене</option>
+                    <option value="publishedon">по дате</option>
+                  </select>
+                  <select class="f_sortdir" name="sortdir">
+                    <option value="asc">по возростанию</option>
+                    <option value="desc">по убыванию</option>
+                  </select>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
         <div id="catalog" class="uk-grid uk-grid-small">
           <div class="product uk-panel uk-width-medium-1-4 uk-width-small-2-4">
             <div class="uk-thumbnail uk-visible-hover">
@@ -232,6 +331,30 @@
           </div>
           <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
             <div class="uk-thumbnail">
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail">
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
+          <div class="product  uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail">
               <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right">ПОПУЛЯРНОЕ</div>
               <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=03&font=Open Sans&size=30&auto=yes" alt="">
               <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
@@ -256,7 +379,30 @@
               <a class="uk-button uk-width-1-1">Подробнее</a>
             </div>
           </div>
+          <div class="product uk-panel uk-width-medium-1-4 uk-width-small-2-4">
+            <div class="uk-thumbnail uk-visible-hover">
+              <div class="uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right uk-badge-danger">АКЦИЯ</div>
+              <img class="uk-margin-small-bottom" data-src="holder.js/250x350?text=01&font=Open Sans&size=30&auto=yes" alt="">
+              <div class="name"><strong>Модель:</strong> <a href="#">834</a></div>
+              <div class="name"><strong>Производитель:</strong> <a href="#">JUANTA</a></div>
+              <div class="name"><strong>Размеры:</strong> 50-51</div>
+              <div class="old-price">1500 $</div>
+              <div class="price uk-margin-small-bottom">1000 $</div>
+              <button class="uk-button uk-width-1-1 uk-button-primary uk-margin-small-bottom">В корзину</button>
+              <a class="uk-button uk-width-1-1">Подробнее</a>
+            </div>
+          </div>
         </div>
+        <ul class="uk-pagination">
+          <li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+          <li class="uk-active"><span>1</span></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><span>...</span></li>
+          <li><a href="#">20</a></li>
+          <li><a href="#"><i class="uk-icon-angle-double-right"></i></a></li>
+        </ul>
       </div>
     </div>
     <div id="content" class="uk-grid uk-margin-bottom">
