@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/components/form-advanced.css">
   <link rel="stylesheet" href="css/components/sticky.css">
   <link rel="stylesheet" href="css/components/tooltip.css">
+  <link rel="stylesheet" href="https://npmcdn.com/social-likes-next/dist/social-likes_flat.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -188,7 +189,7 @@
       </div>
     </div>
     <div class="uk-clearfix"></div>
-    <div id="content" class="uk-grid uk-margin-bottom">
+    <div id="content" class="uk-grid uk-margin-bottom product-page">
       <div class="uk-width-1-1">
         <h1>Crum dolor sit amet, consectetur adipisicing elit.</h1>
         <article class="uk-article">
@@ -254,7 +255,7 @@
             </div>
             <div class="uk-width-medium-2-3">
               <div class="uk-grid">
-                <div class="uk-width-1-2">
+                <div class="uk-width-2-5">
                   <div class="uk-badge uk-badge-notification uk-badge-success uk-margin-bottom">В налиичии</div>
                   <div class="sku uk-margin-bottom"><strong>Артикул:</strong> 123678</div>
                   <div class="uk-text-muted uk-h3">
@@ -272,15 +273,16 @@
                     <a class="uk-margin-small-left" href="#shop-single-details" data-uk-smooth-scroll="{offset:150}">Отзывы клиентов (3)</a>
                   </div>
                 </div>
-                <div class="uk-width-1-2">
+                <div class="uk-width-3-5">
                   <a href="#" class="uk-button uk-button-large uk-align-right" data-uk-tooltip title="Добавить в изобранное"><i class="uk-icon-heart"></i></a>
                   <a href="#" class="uk-button uk-button-large uk-align-right" data-uk-tooltip title="Добавить к сравнению"><i class="uk-icon-balance-scale"></i></a>
                   <div class="uk-clearfix"></div>
-                  <div class="uk-text-right uk-margin-top">
-                    <a href="#"><i class="uk-icon-button uk-icon-facebook"></i></a>
-                    <a href="#"><i class="uk-icon-button uk-icon-twitter"></i></a>
-                    <a href="#"><i class="uk-icon-button uk-icon-vk"></i></a>
-                    <a href="#"><i class="uk-icon-button uk-icon-google-plus"></i></a>
+                  <div class="social-likes">
+                    <div data-service="facebook" title="Share link on Facebook"></div>
+                    <div data-service="twitter" title="Share link on Twitter"></div>
+                    <div data-service="plusone" title="Share link on Google+"></div>
+                    <div data-service="vkontakte" title="Share link on Vkontakte"></div>
+                    <div data-service="odnoklassniki" title="Share link on Odnoklassniki"></div>
                   </div>
                 </div>
               </div>
@@ -737,6 +739,7 @@
 <script src="js/components/slideset.js"></script>
 <script src="js/components/sticky.min.js"></script>
 <script src="js/components/tooltip.js"></script>
+<script src="https://npmcdn.com/social-likes-next/dist/social-likes.min.js"></script>
 <script src="js/main.js"></script>
 
 </html>
