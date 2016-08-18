@@ -14,8 +14,9 @@
   <link rel="stylesheet" href="css/components/search.css">
   <link rel="stylesheet" href="css/components/slider.css">
   <link rel="stylesheet" href="css/components/form-advanced.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/components/sticky.css">
+  <link rel="stylesheet" href="css/components/tooltip.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body id="top">
@@ -252,21 +253,29 @@
               </div>
             </div>
             <div class="uk-width-medium-2-3">
-              <div class="uk-badge uk-badge-notification uk-badge-success uk-margin-bottom">В налиичии</div>
-              <div class="sku uk-margin-bottom"><strong>Артикул:</strong> 123678</div>
-              <div class="uk-text-muted uk-h3">
-                <del>$99.90</del>
+            <div class="uk-grid">
+              <div class="uk-width-1-2">
+                <div class="uk-badge uk-badge-notification uk-badge-success uk-margin-bottom">В налиичии</div>
+                <div class="sku uk-margin-bottom"><strong>Артикул:</strong> 123678</div>
+                <div class="uk-text-muted uk-h3">
+                  <del>$99.90</del>
+                </div>
+                <div class="uk-h1 uk-margin-bottom">
+                  <strong>$79.90</strong>
+                </div>
+                <div>
+                  <i class="uk-icon-star uk-text-primary"></i>
+                  <i class="uk-icon-star uk-text-primary"></i>
+                  <i class="uk-icon-star uk-text-primary"></i>
+                  <i class="uk-icon-star uk-text-primary"></i>
+                  <i class="uk-icon-star"></i>
+                  <a class="uk-margin-small-left" href="#shop-single-details" data-uk-smooth-scroll="{offset:150}">Отзывы клиентов (3)</a>
+                </div>
               </div>
-              <div class="uk-h1 uk-margin-bottom">
-                <strong>$79.90</strong>
+              <div class="uk-width-1-2">
+                <a href="#" class="uk-button uk-button-large uk-align-right" data-uk-tooltip title="Добавить в изобранное"><i class="uk-icon-heart"></i></a>
+                <a href="#" class="uk-button uk-button-large uk-align-right" data-uk-tooltip title="Добавить к сравнению"><i class="uk-icon-balance-scale"></i></a>
               </div>
-              <div>
-                <i class="uk-icon-star uk-text-primary"></i>
-                <i class="uk-icon-star uk-text-primary"></i>
-                <i class="uk-icon-star uk-text-primary"></i>
-                <i class="uk-icon-star uk-text-primary"></i>
-                <i class="uk-icon-star"></i>
-                <a class="uk-margin-small-left" href="#shop-single-details" data-uk-smooth-scroll="{offset:150}">Отзывы клиентов (3)</a>
               </div>
               <hr>
               <p>Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi.</p>
@@ -711,6 +720,7 @@
 <script src="js/components/search.min.js"></script>
 <script src="js/components/slideset.js"></script>
 <script src="js/components/sticky.min.js"></script>
+<script src="js/components/tooltip.js"></script>
 <script src="js/main.js"></script>
 
 </html>
