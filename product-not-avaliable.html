@@ -256,7 +256,7 @@
             <div class="uk-width-medium-2-3">
               <div class="uk-grid">
                 <div class="uk-width-2-5">
-                  <div class="uk-badge uk-badge-notification uk-badge-success uk-margin-bottom">В налиичии</div>
+                  <div class="uk-badge uk-badge-notification uk-badge-danger uk-margin-bottom">Нет в налиичии</div>
                   <div class="sku uk-margin-bottom"><strong>Артикул:</strong> 123678</div>
                   <div class="uk-text-muted uk-h3">
                     <del>$99.90</del>
@@ -288,32 +288,9 @@
               <p>Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi.</p>
               <hr>
               <form class="uk-grid uk-form">
-                <div class="uk-width-1-3">
-                  <label for="" class="uk-text-bold">Выберите цвет: </label>
-                  <select class="uk-width-medium">
-                    <option>Черный</option>
-                    <option>Белый</option>
-                  </select>
-                </div>
-                <div class="uk-width-1-3">
-                  <label for="" class="uk-text-bold">Выберите рост: </label>
-                  <select class="uk-width-medium">
-                    <option>160</option>
-                    <option>165</option>
-                  </select>
-                </div>
-                <div class="uk-width-1-3">
-                  <label for="" class="uk-text-bold">Выберите размер: </label>
-                  <select class="uk-width-medium">
-                    <option>48</option>
-                    <option>50</option>
-                  </select>
-                </div>
-                <div class="uk-align-center uk-margin"><i class="uk-icon-arrows"></i> <a href="#size-table" data-uk-modal>Таблица размеров</a></div>
-                <div class="uk-cleanfix uk-margin-bottom"></div>
+                <div class="uk-cleanfix"></div>
                 <div class="uk-width-1-1" data-uk-margin>
-                  <button class="uk-button uk-button-success uk-button-large uk-width-1-1 uk-margin-bottom uk-text-large"><i class="uk-icon-shopping-cart"></i> &nbsp;Добавить в корзину</button>
-                  <button class="uk-button uk-button-large uk-width-1-1 uk-text-large uk-margin-small-top"><i class="uk-icon-clock-o"></i> &nbsp;<a href="#order-one-click" data-uk-modal>Заказать в один клик</a></button>
+                  <a href="#notice-of-availability" data-uk-modal class="uk-button uk-button-large uk-width-1-1"><i class="uk-icon-envelope-o"></i> &nbsp; Уведомить о поступлении товара</a>
                 </div>
               </form>
             </div>
@@ -694,6 +671,27 @@
         <p>При комплектации заказа цветовые гаммы некоторых моделей могут отличаться от того цвета, что заявлен на фото. Швейные фирмы фотографируют модель в каком-либо одном цвете, а прошивают в двух-трёх и более цветовых вариациях. Мы обязательно согласовываем с нашими клиентами эти изменения!</p>
         <p>Обратите внимание, все фото представленных моделей сделаны в специализированных студиях и обработаны графическим редактором. За несовпадение оттенка цветов (яркость, контрастность, насыщенность) отдельных деталей одежды интернет-магазин ответственности не несет, т.к. мы не занимаемся дополнительной обработкой фотографий!</p>
       </div>
+    </div>
+  </div>
+  <div id="notice-of-availability" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a class="uk-modal-close uk-close"></a>
+      <div class="uk-modal-header">
+        <h2>Уведомление о поступлении "Платье Ольга Стиль C219"</h2>
+      </div>
+      <form class="uk-form">
+        <div class="uk-grid uk-grid-small">
+          <div class="uk-width-1-1">
+            <input type="text" placeholder="Имя" class="uk-width-1-1 uk-form-large uk-margin-bottom">
+          </div>
+          <div class="uk-width-1-1">
+            <input type="text" placeholder="Email" class="uk-width-1-1 uk-form-large uk-margin-bottom">
+          </div>
+          <div class="uk-width-1-1">
+            <button type="submit" class="uk-width-1-1 uk-button uk-button-large uk-button-success">Отправить</button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
   <div id="order-one-click" class="uk-modal">
