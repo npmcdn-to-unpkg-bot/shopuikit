@@ -1,0 +1,1263 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"uk-conta",
+				"uk-container-center"
+			],
+			[
+				"uk-marginsma",
+				"uk-margin-small-top"
+			],
+			[
+				"uk-conter",
+				"uk-container-center 	UIkit class"
+			],
+			[
+				"uk-verti",
+				"uk-vertical-align-middle 	UIkit class"
+			],
+			[
+				"uk-float",
+				"uk-float-right 	UIkit class"
+			],
+			[
+				"uk-hid",
+				"uk-hidden-small 	UIkit class"
+			],
+			[
+				"uk-text-s",
+				"uk-text-center-small"
+			],
+			[
+				"uk-margin-s",
+				"uk-margin-small-top"
+			],
+			[
+				"uk-badge-",
+				"uk-badge-success 	UIkit class"
+			],
+			[
+				"uk-block-",
+				"uk-block-muted 	UIkit class"
+			],
+			[
+				"uk-text-la",
+				"uk-text-large 	UIkit class"
+			],
+			[
+				"uk-button-",
+				"uk-button-danger 	UIkit class"
+			],
+			[
+				"uk-panel-box-seco",
+				"uk-panel-box-secondary-hover 	UIkit class"
+			],
+			[
+				"uk-pa",
+				"uk-panel-hover"
+			],
+			[
+				"uk-ban",
+				"uk-badge-danger 	UIkit class"
+			],
+			[
+				"uk-panel-box",
+				"uk-panel-box-primary-hover 	UIkit class"
+			],
+			[
+				"uk-panel",
+				"uk-panel-box 	UIkit class"
+			],
+			[
+				"slideshow-",
+				"slideshow-fx.min.js"
+			],
+			[
+				"slide",
+				"slider.css"
+			],
+			[
+				"slider",
+				"slider.min.js"
+			],
+			[
+				"li",
+				"lightbox.min.js"
+			],
+			[
+				"uk-wi",
+				"uk-width-1-1"
+			],
+			[
+				"se",
+				"search.min.js"
+			],
+			[
+				"sty",
+				"sticky.min.js"
+			],
+			[
+				"lin",
+				"line-through"
+			],
+			[
+				"slidese",
+				"slideset.min.js"
+			],
+			[
+				"slid",
+				"slideshow.css"
+			],
+			[
+				"slides",
+				"slideshow.js"
+			],
+			[
+				"uk-grid-wi",
+				"uk-grid-width-1-3 	UIkit class"
+			],
+			[
+				"padd",
+				"paddingVar"
+			],
+			[
+				"browse",
+				"browserify.md"
+			],
+			[
+				"jqu",
+				"jquery-1.12.4.min.js"
+			],
+			[
+				"apa",
+				"apache_server_status.png"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/main.less",
+			"settings":
+			{
+				"buffer_size": 3195,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tasks.todo",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "product.html",
+			"settings":
+			{
+				"buffer_size": 38340,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "wrap",
+		"selected_items":
+		[
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"task",
+				"Set Syntax: Tasks"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set  hml",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"set mark ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"set thml",
+				"Set Syntax: HTML"
+			],
+			[
+				"set mar ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"bs3 cdn",
+				"Snippet: bs3-cdn-css"
+			],
+			[
+				"bs3 start",
+				"Snippet: bs3-template.starter"
+			],
+			[
+				"plaine",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"to ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"to tas",
+				"View: Toggle Tabs"
+			],
+			[
+				"to space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"set pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"conve sps",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"set sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set ma e",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"mar ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"instat",
+				"GitGutter: Compare Against Tag"
+			],
+			[
+				"vali",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wara",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"set mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				":10",
+				"Emmet: Decrement Number by 10"
+			],
+			[
+				"insert",
+				"InsertDate: Default"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"set pal",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mard",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"set plan",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"remo p",
+				"Package Control: Remove Package"
+			],
+			[
+				"set mard",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"mardow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mardo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/clouds/Dropbox/sandbox/shopuikit"
+	],
+	"file_history":
+	[
+		"/C/Users/Vladimir Kamuz/Downloads/exp_18_08_16__17_51_13.csv",
+		"/D/clouds/Dropbox/sandbox/shopuikit/single.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/product.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/faq.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/blog-post.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/catalog.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.css",
+		"/D/clouds/Dropbox/sandbox/shopuikit/product-not-avaliable.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/product-second.html",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/02_frontend/howto/preloader/preloader.md",
+		"/D/clouds/Dropbox/sandbox/preloader/css/main.css",
+		"/D/clouds/Dropbox/sandbox/preloader/index.html",
+		"/C/Users/Vladimir Kamuz/Downloads/shk-description.txt",
+		"/D/clouds/Dropbox/sandbox/preloader/js/main.js",
+		"/D/clouds/Dropbox/sandbox/shopuikit/temp.txt",
+		"/D/install/sublime/Data/Packages/User/Terminal.sublime-settings",
+		"/D/install/sublime/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Vladimir Kamuz/Desktop/nup.md",
+		"/D/clouds/Dropbox/sandbox/shopuikit/js/main.js",
+		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.less",
+		"/D/clouds/Dropbox/sandbox/sublime/Preferences.sublime-settings",
+		"/D/clouds/Dropbox/sandbox/shopuikit/css/test.css",
+		"/D/clouds/Dropbox/sandbox/sublime/Default (Windows).sublime-keymap",
+		"/D/clouds/Dropbox/sandbox/shopuikit/index.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/price.html",
+		"/C/Users/Vladimir Kamuz/Desktop/preloader.md",
+		"/D/install/sublime/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Vladimir Kamuz/AppData/Roaming/Brackets/extensions/user/brackets-fonts/main.js",
+		"/D/clouds/Dropbox/sandbox/shopuikit/test.html",
+		"/C/Users/Vladimir Kamuz/Desktop/sound.txt",
+		"/D/clouds/Dropbox/sandbox/shopuikit/gulpfile.js",
+		"/C/Users/Vladimir Kamuz/Desktop/content.txt",
+		"/D/install/sublime/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/install/server/ubuntu-14.04.4-server-i386.ova",
+		"/D/clouds/Dropbox/sandbox/shopuikit/off-canvas.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/css/main_one.less",
+		"/D/clouds/Dropbox/sandbox/shopuikit/index_one.html",
+		"/D/clouds/Dropbox/sandbox/codeigniter/system/libraries/Calendar.php",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/wp-content/themes/yoo_venice_wp/less/theme.less",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/wp-content/themes/yoo_venice_wp/less/customizer.json",
+		"/D/install/sublime/Data/Packages/User/Snippets/comment.sublime-snippet",
+		"/D/clouds/Dropbox/sandbox/docs/manager/assets/ext3/ext-all.js",
+		"/D/clouds/Dropbox/sandbox/docs/manager/assets/ext3/gpl-3.0.txt",
+		"/D/clouds/Google Drive/offline/javascript.loc/ajax/script.js",
+		"/D/clouds/Google Drive/offline/javascript.loc/script.js",
+		"/D/clouds/Google Drive/offline/javascript.loc/simple.txt",
+		"/D/clouds/Google Drive/offline/javascript.loc/js/functions.js",
+		"/D/clouds/Dropbox/sandbox/holderjs/holder.js",
+		"/D/clouds/Dropbox/sandbox/shopuikit/holder.html",
+		"/D/clouds/Dropbox/sandbox/shopbootstrap/index.html",
+		"/D/clouds/Dropbox/sandbox/holderjs/readme.md",
+		"/C/Users/Vladimir Kamuz/Downloads/holder.js",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/imsky-holder-8220898/README.md",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/imsky-holder-8220898/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/shopbootstrap/css/main.css",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/cms/modx/start/start.md",
+		"/D/clouds/Dropbox/sandbox/shopbootstrap/css/main.styl",
+		"/D/clouds/Dropbox/sandbox/shopbootstrap/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/shopbootstrap/package.json",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/index.html",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/css/style.css",
+		"/D/clouds/Dropbox/sandbox/docs/assets/templates/docs.tpl",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/README.txt",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/package.json",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/license.txt",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/js/prefixfree.min.js",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/js/index.js",
+		"/D/clouds/Dropbox/sandbox/bootstrapgrid/css/reset.css",
+		"/D/clouds/Google Drive/xampp/htdocs/test.loc/main.js",
+		"/D/clouds/Dropbox/sandbox/test/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/modextra/assets/components/modextra/css/index.html",
+		"/D/clouds/Dropbox/sandbox/modextra/.git/config",
+		"/D/clouds/Dropbox/sandbox/less-docs/.git/config",
+		"/D/clouds/Dropbox/sandbox/less-docs/.git/refs/remotes/origin/HEAD",
+		"/D/clouds/Dropbox/sandbox/less-docs/.git/refs/heads/master",
+		"/D/clouds/Dropbox/sandbox/less-docs/.git/HEAD",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/index.html",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/css/style.css",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/js/index.js",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/js/prefixfree.min.js",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/catalogfill-2.4.8-pl/modCategory/31e13766f5d319bd42dcdc534f32c914/0/catalogfill/docs/readme.txt",
+		"/D/clouds/Dropbox/sandbox/uikit/src/less/components/search.less",
+		"/C/Users/Vladimir Kamuz/.v8flags.4.5.103.36.Vladimir Kamuz.json",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/js/uikit.js",
+		"/C/Users/Vladimir Kamuz/Desktop/modx.md",
+		"/D/clouds/Dropbox/sandbox/uikit/src/js/components/search.js",
+		"/C/Program Files/Total Commander/wincmd.key",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/Temp1_Total-Commander-8.52a-key.zip/Åa«µÑñpaá á¬G¿óáµ¿¿.txt",
+		"/C/Users/Vladimir Kamuz/AppData/Roaming/GHISLER/wincmd.ini",
+		"/C/Users/Vladimir Kamuz/AppData/Roaming/GHISLER/wcx_ftp.ini",
+		"/C/Users/Vladimir Kamuz/AppData/Local/Temp/_tc/wincmd.key",
+		"/D/install/sublime/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/less/less.md",
+		"/D/clouds/Dropbox/sandbox/shopuikit/utility_sample.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/index_sample.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/panels_sample.html",
+		"/D/install/camtasia/serial.txt",
+		"/D/clouds/Dropbox/sandbox/shopuikit/grid_sample.html",
+		"/D/install/snagit/Serial.txt",
+		"/D/clouds/Dropbox/sandbox/uikit/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/uikit/composer.json",
+		"/D/clouds/Dropbox/sandbox/shopuikit/package.json",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulpo-connect.md",
+		"/D/clouds/Dropbox/sandbox/shopuikit/.gitingore",
+		"/D/install/sublime/Data/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/D/install/sublime/Data/Packages/Emmet/Emmet.sublime-settings",
+		"/D/clouds/Dropbox/sandbox/gulpjs/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/gulpjs/package.json",
+		"/D/clouds/Dropbox/sandbox/uikitstart/gulpfile.js",
+		"/D/clouds/Dropbox/sandbox/uikit/vendor/jquery.less.js",
+		"/C/Users/Vladimir Kamuz/Desktop/nwb.txt",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/coffee/main.coffee",
+		"/D/clouds/Dropbox/sandbox/uikitstart/index.html",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/coffee/secondary.coffee",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/less/main.less",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/css/less.css",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/js/main.js",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/css/main.css",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/js/coffee.js",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/types_of_data.md",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/install.md",
+		"/D/clouds/Dropbox/sandbox/uikitstart/app/less/secondary.less",
+		"/D/clouds/Dropbox/sandbox/uikitstart/dist/css/all.css",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/jquery.md",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulpjs.md",
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulp-coffee.md",
+		"/D/clouds/Dropbox/sandbox/docs/core/components/markdown/elements/snippets/markdown.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\clouds\\Dropbox\\sandbox\\uikit\\src",
+			"D:\\clouds\\Dropbox\\sandbox\\docs\\docs\\ru\\web\\06_tools\\vcs",
+			"D:\\clouds\\Dropbox\\sandbox\\docs",
+			"D:\\clouds\\Dropbox\\sandbox\\yellow",
+			"D:\\clouds\\Dropbox\\sandbox\\yellow\\system",
+			"D:\\clouds\\Dropbox\\sandbox\\documentation\\docs\\ru\\web\\06_tools\\vcs\\git",
+			"D:\\clouds\\Dropbox\\projects\\documentation.io\\ru\\web\\06_tools\\vcs",
+			"C:\\Users\\Vladimir Kamuz\\Desktop\\Untitled"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Выберите ",
+			" ",
+			"sticky",
+			"отправить",
+			"таблица размеров",
+			"Таблица размеров",
+			"uk-icon",
+			"Размерная таблица",
+			" uk-form-large",
+			" uk-margin-top",
+			"uk-form ",
+			"1-2",
+			"/form",
+			"<form",
+			"form",
+			"class=\"uk-vertical-align-middle\"",
+			" class=\"uk-form-large\"",
+			"right",
+			"заказать в один",
+			"<a href=\"shop-cart.html\" class=\"uk-button uk-button-primary uk-button-large uk-width-8-10\">Подробнее</a>",
+			"bh-",
+			"images",
+			"<div class=\"price\">",
+			"uk-button uk-margin-top",
+			"uk-panel-box uk-panel-hover",
+			"<div class=\"uk-panel uk-panel-box\">",
+			"bh-pricing-price",
+			"bh-pricing-name",
+			"2-10\"><i class=\"uk-icon-shopping-cart",
+			"<a href=\"shop-cart.html\" class=\"uk-button uk-button-primary uk-button-large uk-width-8-10\">В корзину</a>",
+			"shop.html\">Bags,",
+			"Bags,</a>",
+			"shop_product-09-1.jpg",
+			"ins",
+			"uk-width-2-10\"><i class=\"uk-icon-star",
+			"uk-icon-star",
+			"Add to cart",
+			"class=\"bh-overlay-image-hover\" ",
+			"uk-overlay-hover bh-overlay-image",
+			"-hover",
+			"star",
+			"Add to cart",
+			"bh-overlay-image",
+			"images/",
+			"width=\"400\" height=\"540\" ",
+			"_crop",
+			"img/catalog/3.png",
+			"2.png",
+			"img/catalog/2.png",
+			"img/catalog/1.png",
+			"ins",
+			"p",
+			"data-src",
+			"holder.js/400x540?text=01&font=Open Sans&size=70&auto=yes",
+			"holder.js/400x540?text=02&font=Open Sans&size=30&auto=yes",
+			"holder.js/400x540?text=01&font=Open Sans&size=30&auto=yes",
+			"720",
+			"size",
+			"img/placeholder_800x400_3.jpg",
+			"holder.js",
+			"holder.js/720x540?text=02&font=Open Sans&size=30&auto=yes",
+			"holder.js/720x540?text=03&font=Open Sans&size=30&auto=yes",
+			"img/placeholder_800x400_2.jpg",
+			"img/placeholder_800x400_1.jpg",
+			"holder.js/720x540?text=01&font=Open Sans&size=30&auto=yes",
+			"1",
+			"images/shop_product-08-2.jpg",
+			"images/shop_product-08-3.jpg",
+			"images/shop_product-08-1.jpg",
+			"200x300",
+			"images/shop_product-08-2.jpg",
+			"f_status[like][]",
+			"status__",
+			"kind__",
+			"f_kind[]",
+			" class=\"filter_row\"",
+			"<h3",
+			"h3>",
+			"product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-1-2",
+			"uk-width-medium-1-3 uk-width-1-2",
+			"product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2",
+			"product uk-panel uk-width-medium-1-3 uk-width-small-1-3",
+			"product uk-panel uk-width-medium-1-3 uk-width-small-2-4 uk-width-1-1",
+			"product uk-panel uk-width-medium-1-4 uk-width-small-2-4",
+			"product  uk-panel",
+			"product uk-panel uk-width-medium-1-4 uk-width-small-2-4",
+			"large-1-4 uk-width-medium-1-2",
+			"medium-1-3",
+			"1-4",
+			"uk-width-large-1-2 ",
+			"medium",
+			"2",
+			"<div class=\"uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right\">ПОПУЛЯРНОЕ</div>",
+			":",
+			"uk-width-medium-1-4",
+			"width=\"200\" height=\"300\"",
+			"uk-panel",
+			"holder.js/200",
+			"1-3",
+			"3",
+			"    \n",
+			"uk-container uk-container-center",
+			"images",
+			"<span class=\"uk-hidden-small\"> ",
+			"<!-- ",
+			"<h3",
+			"h3",
+			"2-10",
+			"medium",
+			"fa fa",
+			"2",
+			"4",
+			"marginBottom",
+			"marginBottomSmall",
+			"marginBottom",
+			"uk-width-small-2-4 uk-width-medium-1-4",
+			"uk-width-1-4",
+			"30",
+			"<i class=\"",
+			"class=\"",
+			"1000 $",
+			"В корзину",
+			"data-src=\"holder.js/",
+			"data-src=\"holder.js",
+			"uk-margin-small-bottom",
+			"vine",
+			"class=\"product\"",
+			"product"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"index"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tasks.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "product.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13338,
+								13338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "shopuikit.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.le",
+				"shopuikit\\css\\main.less"
+			],
+			[
+				"faq",
+				"shopuikit\\faq.html"
+			],
+			[
+				"sing",
+				"shopuikit\\single.html"
+			],
+			[
+				"single",
+				"shopuikit\\single.html"
+			],
+			[
+				"pro",
+				"shopuikit\\product.html"
+			],
+			[
+				"index",
+				"shopuikit\\index.html"
+			],
+			[
+				"produ",
+				"shopuikit\\product.html"
+			],
+			[
+				"catalo",
+				"shopuikit\\catalog.html"
+			],
+			[
+				"off-ca",
+				"shopuikit\\off-canvas.html"
+			],
+			[
+				"index.",
+				"shopuikit\\index.html"
+			],
+			[
+				"main.less",
+				"shopuikit\\css\\main.less"
+			],
+			[
+				"main",
+				"shopuikit\\css\\main.css"
+			],
+			[
+				"index_o",
+				"shopuikit\\index_one.html"
+			],
+			[
+				"docs",
+				"docs\\assets\\templates\\docs.tpl"
+			],
+			[
+				"start.md",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\cms\\modx\\start\\start.md"
+			],
+			[
+				"lessmd",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\preprocessor\\less\\less.md"
+			],
+			[
+				"main.css",
+				"shopuikit\\css\\main.css"
+			],
+			[
+				"gulp-co",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\gulpo-connect.md"
+			],
+			[
+				"docst",
+				"docs\\assets\\templates\\docs.tpl"
+			],
+			[
+				"index.html",
+				"uikitstart\\index.html"
+			],
+			[
+				"distall.css",
+				"uikitstart\\dist\\css\\all.css"
+			],
+			[
+				"less.md",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\preprocessor\\less\\less.md"
+			],
+			[
+				"snippemark",
+				"docs\\core\\components\\markdown\\elements\\snippets\\snippet.markdown.php"
+			],
+			[
+				"markdown",
+				"docs\\core\\components\\markdown\\elements\\snippets\\markdown.php"
+			],
+			[
+				"markdonw",
+				"docs\\core\\components\\markdown\\elements\\snippets\\markdown.php"
+			],
+			[
+				"gulpjs.md",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\gulpjs.md"
+			],
+			[
+				"uikgul",
+				"uikitstart\\gulpfile.js"
+			],
+			[
+				"custommain.css",
+				"docs\\assets\\templates\\custom\\css\\main.css"
+			],
+			[
+				"coffeeinstall",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\preprocessor\\coffeescript\\install.md"
+			],
+			[
+				"coffeintro",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\preprocessor\\coffeescript\\intro.md"
+			],
+			[
+				"gulp.md",
+				"docs\\assets\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\gulpjs.md"
+			],
+			[
+				"index.thml",
+				"uikitstart\\index.html"
+			],
+			[
+				"docs.p",
+				"docs\\assets\\templates\\docs.tpl"
+			],
+			[
+				"sourcemap",
+				"docs\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\gulp-sourcemaps.md"
+			],
+			[
+				"stylus.md",
+				"docs\\docs\\ru\\web\\06_tools\\preprocessor\\stylus\\stylus.md"
+			],
+			[
+				"main.js",
+				"modx\\manager\\assets\\modext\\sections\\login.js"
+			],
+			[
+				"synta",
+				"modx\\assets\\markdown\\syntax_tags.md"
+			],
+			[
+				"modx",
+				"modx\\assets\\markdown\\modx_api.md"
+			],
+			[
+				"modifiers",
+				"modx\\assets\\markdown\\output-modifiers.md"
+			],
+			[
+				"gulp",
+				"docs\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\gulpjs.md"
+			],
+			[
+				"mardown",
+				"modx\\core\\components\\markdown\\elements\\snippets\\markdown.php"
+			],
+			[
+				"config",
+				"system\\config\\config.ini"
+			],
+			[
+				"head",
+				"system\\themes\\snippets\\header.php"
+			],
+			[
+				"footer",
+				"documentation\\system\\themes\\snippets\\footer.php"
+			],
+			[
+				"remote",
+				"docs\\docs\\ru\\web\\06_tools\\vcs\\git\\remotes.md"
+			],
+			[
+				"github.md",
+				"docs\\docs\\ru\\web\\06_tools\\vcs\\git\\github.md"
+			],
+			[
+				"pull",
+				"docs\\docs\\ru\\web\\06_tools\\vcs\\git\\pull_request.md"
+			],
+			[
+				"virtu",
+				"docs\\docs\\ru\\web\\04_server\\local\\virtualbox_ubuntu_server.md"
+			],
+			[
+				"vir",
+				"docs\\docs\\ru\\web\\04_server\\local\\virtualbox_ubuntu_server.md"
+			],
+			[
+				"con",
+				"system\\config\\config.ini"
+			],
+			[
+				"confi",
+				"system\\config\\config.ini"
+			],
+			[
+				"foo",
+				"system\\themes\\snippets\\footer.php"
+			],
+			[
+				"systplug",
+				"yellow\\system\\plugins\\language-en.txt"
+			],
+			[
+				"syst",
+				"yellow\\system\\themes\\assets\\js\\languages\\step21.js"
+			],
+			[
+				"wiki",
+				"yellow\\content\\2-wiki\\wiki-example.txt"
+			],
+			[
+				"brows",
+				"docs\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\browserify.md"
+			],
+			[
+				"gulpjs",
+				"docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\gulpjs.md"
+			],
+			[
+				"virt",
+				"docs\\ru\\web\\04_server\\local\\virtualbox_ubuntu_server.md"
+			],
+			[
+				"testgulp",
+				"test\\gulpfile.js"
+			],
+			[
+				"tesapp.j",
+				"test\\app.js"
+			],
+			[
+				"tespackage",
+				"test\\package.json"
+			],
+			[
+				"testindex.php",
+				"test\\index.php"
+			],
+			[
+				"browermd",
+				"documentation\\docs\\ru\\web\\06_tools\\task_runner\\gulpjs\\browser-sync.md"
+			],
+			[
+				"testpackage",
+				"test\\package.json"
+			],
+			[
+				"testpackage.json",
+				"test\\node_modules\\browser-sync\\package.json"
+			],
+			[
+				"index.php",
+				"documentation\\index.php"
+			],
+			[
+				"gulmain.js",
+				"gulpjs\\app\\js\\main.js"
+			],
+			[
+				"packa",
+				"gulpjs\\package.json"
+			],
+			[
+				"gulpmain.css",
+				"gulpjs\\app\\css\\main.css"
+			],
+			[
+				"package",
+				"gulpjs\\package.json"
+			],
+			[
+				"gruntjs.md",
+				"documentation\\docs\\ru\\web\\06_tools\\task_runner\\gruntjs\\gruntsj.md"
+			],
+			[
+				"gruntjs",
+				"documentation\\docs\\ru\\web\\06_tools\\task_runner\\gruntjs\\gruntsj.md"
+			],
+			[
+				"bower.md",
+				"documentation\\docs\\ru\\web\\06_tools\\package_manager\\bower\\bower.md"
+			],
+			[
+				"gulpmd",
+				"documentation\\docs\\ru\\web\\06_tools\\gulpjs\\gulpjs.md"
+			],
+			[
+				"gulp.js",
+				"gulpjs\\gulpfile.js"
+			],
+			[
+				"tmux",
+				"documentation\\docs\\ru\\web\\04_server\\bash\\tmux.md"
+			],
+			[
+				"inde",
+				"documentation\\index.php"
+			],
+			[
+				"stylus",
+				"documentation\\docs\\ru\\web\\02_front_end\\stylus\\stylus.md"
+			],
+			[
+				"scr",
+				"shop\\js\\script.js"
+			],
+			[
+				"",
+				"shop\\gulpfile.js"
+			],
+			[
+				"stylus.m",
+				"C:\\Users\\Vladimir Kamuz\\Desktop\\stylus.md"
+			],
+			[
+				"pa",
+				"shop\\package.json"
+			],
+			[
+				"man",
+				"shop\\css\\main.css"
+			],
+			[
+				"bower",
+				"documentation\\docs\\ru\\web\\06_tools\\package_managers\\bower\\bower.md"
+			],
+			[
+				"styl",
+				"css\\style.css"
+			],
+			[
+				"_vi",
+				"documentation\\docs\\ru\\web\\06_tools\\text_editor\\vim\\_vimrc"
+			],
+			[
+				".vim",
+				"documentation\\docs\\ru\\web\\06_tools\\text_editor\\vim\\.vimrc"
+			],
+			[
+				"markdow",
+				"documentation\\docs\\ru\\web\\02_front_end\\markdown\\README.md"
+			],
+			[
+				"conte",
+				"documentation\\docs\\content.txt"
+			],
+			[
+				"events",
+				"documentation\\docs\\ru\\web\\02_front_end\\javascript\\events.md"
+			],
+			[
+				"func",
+				"documentation.io\\ru\\web\\02_front_end\\javascript\\function.md"
+			],
+			[
+				"even",
+				"documentation.io\\ru\\web\\02_front_end\\javascript\\events.md"
+			],
+			[
+				"eve",
+				"markdown.pre\\docs\\events.md"
+			],
+			[
+				"auto",
+				"codeigniter\\application\\config\\autoload.php"
+			],
+			[
+				"viru",
+				"local\\virtualbox_ubuntu_server.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 498.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 377.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
