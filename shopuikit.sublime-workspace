@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"uk-wi",
+				"uk-width-1-3"
+			],
+			[
 				"uk-panel-",
 				"uk-panel-title"
 			],
@@ -92,10 +96,6 @@
 				"lightbox.min.js"
 			],
 			[
-				"uk-wi",
-				"uk-width-1-1"
-			],
-			[
 				"se",
 				"search.min.js"
 			],
@@ -144,18 +144,10 @@
 	"buffers":
 	[
 		{
-			"file": "css/main.less",
+			"file": "product-not-avaliable.html",
 			"settings":
 			{
-				"buffer_size": 3195,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tasks.todo",
-			"settings":
-			{
-				"buffer_size": 1135,
+				"buffer_size": 39178,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,42 +155,24 @@
 			"file": "product.html",
 			"settings":
 			{
-				"buffer_size": 38340,
+				"buffer_size": 39833,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "catalog.html",
+			"file": "css/main.less",
 			"settings":
 			{
-				"buffer_size": 29184,
+				"buffer_size": 3631,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "tasks.todo",
 			"settings":
 			{
-				"buffer_size": 50,
+				"buffer_size": 1223,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/clouds/Dropbox/sandbox/mischeryakov/text.txt",
-			"settings":
-			{
-				"buffer_size": 715,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\ntitle: privatbank\ntags: []\nnotebook: Cards\n---\n\n<div markdown=\"1\" style=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n\nУниверсальная\n\n5168742328831353\n\n07/16\n\n7530 162\n\n  \n\n\nДля выплат в гривнах\n\n5168742700324860\n\n04/20\n\n4860 397\n\nPIN - 8463\n\n  \n\n\nДля выплат в рублях\n\n5168757222454896\n\n06/17\n\n4896 615\n\n  \n\n\nДля выплат в долларах\n\n5168742067944763\n\n08/17  \n\n\n4607 701\n\n  \n\n\nДля выплат в евро\n\n5168742067944607\n\n08/17\n\n4763 169\n\n  \n\n\nКредитка Сани Камуза\n\n5211537451668219\n\n  \n\n\n~~Для выплат в гривнах~~\n\n~~4627082204046182~~\n\n~~07/16~~\n\n~~6182 939~~\n\n  \n\n\nСистемы денежных переводов\n\n  * Золотая корона\n  * Unistream\n  * Western Union\n  * Contact\n  * Coinstar\n  * MoneyGram\n  * PrivatMoney\n\n  \n\n\n</div>\n",
-			"settings":
-			{
-				"buffer_size": 753,
-				"line_ending": "Windows",
-				"name": "Evernote: privatbank",
-				"scratch": true
 			}
 		}
 	],
@@ -209,17 +183,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 196.0,
-		"last_filter": "evernote sea",
+		"height": 127.0,
+		"last_filter": "wrap",
 		"selected_items":
 		[
 			[
-				"evernote sea",
-				"Evernote: Search Note"
-			],
-			[
 				"wrap",
 				"Word Wrap: Toggle"
+			],
+			[
+				"evernote sea",
+				"Evernote: Search Note"
 			],
 			[
 				"task",
@@ -418,7 +392,7 @@
 				"Markdown Preview: Preview in Browser"
 			]
 		],
-		"width": 432.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -443,12 +417,14 @@
 	],
 	"file_history":
 	[
+		"/D/clouds/Dropbox/sandbox/shopuikit/catalog.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/product.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/.gitignore",
+		"/D/clouds/Dropbox/sandbox/mischeryakov/text.txt",
 		"/C/Users/Vladimir Kamuz/Downloads/exp_18_08_16__17_51_13.csv",
 		"/D/clouds/Dropbox/sandbox/shopuikit/single.html",
-		"/D/clouds/Dropbox/sandbox/shopuikit/product.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/faq.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/blog-post.html",
-		"/D/clouds/Dropbox/sandbox/shopuikit/catalog.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.css",
 		"/D/clouds/Dropbox/sandbox/shopuikit/product-not-avaliable.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/product-second.html",
@@ -568,9 +544,7 @@
 		"/D/clouds/Dropbox/sandbox/uikitstart/app/less/secondary.less",
 		"/D/clouds/Dropbox/sandbox/uikitstart/dist/css/all.css",
 		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/jquery.md",
-		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulpjs.md",
-		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulp-coffee.md",
-		"/D/clouds/Dropbox/sandbox/docs/core/components/markdown/elements/snippets/markdown.php"
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulpjs.md"
 	],
 	"find":
 	{
@@ -596,6 +570,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1-10",
+			"truck",
+			"uk-active",
+			"2",
+			"1-5",
+			"uk-padding-small",
+			"small",
+			"style=\"padding: 10px\" ",
+			"uk-width-medium-1-3 uk-width-small-1-3 uk-width-1-2",
 			"p",
 			"h3",
 			"Выберите ",
@@ -714,16 +697,7 @@
 			"marginBottomSmall",
 			"marginBottom",
 			"uk-width-small-2-4 uk-width-medium-1-4",
-			"uk-width-1-4",
-			"30",
-			"<i class=\"",
-			"class=\"",
-			"1000 $",
-			"В корзину",
-			"data-src=\"holder.js/",
-			"data-src=\"holder.js",
-			"uk-margin-small-bottom",
-			"vine"
+			"uk-width-1-4"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -742,24 +716,85 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/main.less",
+					"file": "product-not-avaliable.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3195,
+						"buffer_size": 39178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								941,
-								941
+								16390,
+								15135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4287.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "product.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16603,
+								16603
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 4661.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3465,
+								3465
 							]
 						],
 						"settings":
@@ -769,27 +804,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 2205.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "tasks.todo",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1135,
+						"buffer_size": 1223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								646,
+								646
 							]
 						],
 						"settings":
@@ -800,158 +835,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "product.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 38340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13706,
-								13706
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3815.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "catalog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10597,
-								10597
-							],
-							[
-								10608,
-								10608
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3142.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33,
-								33
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/D/clouds/Dropbox/sandbox/mischeryakov/text.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 715,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 753,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"$evernote": true,
-							"$evernote_guid": "0bb61f52-a815-4667-a614-8482935214c9",
-							"$evernote_modified": 1,
-							"$evernote_title": "privatbank",
-							"syntax": "Packages/Evernote/Evernote.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1418,9 +1302,9 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
-	"show_tabs": false,
+	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 232.0,
 	"status_bar_visible": true,
