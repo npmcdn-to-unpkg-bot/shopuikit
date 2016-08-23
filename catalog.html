@@ -278,24 +278,34 @@
         <h1>Consectetur adipisicing elit. Perspiciatis, assumenda.</h1>
         <div class="uk-margin-bottom uk-block uk-block-muted uk-padding-remove">
           <div class="uk-grid uk-hidden-small show-hide">
-            <div class="uk-width-medium-1-3 uk-width-small-1-5 uk-width-3-10">
-              <div class="uk-padding-small uk-button-group">
+            <div class=" uk-width-medium-1-3 uk-width-small-1-1 uk-width-1-1 uk-text-center-small">
+              <div class="uk-button-group">
                 <a class="uk-button uk-active" href=""><i class="uk-icon-th"></i></a>
                 <a class="uk-button" href=""><i class="uk-icon-th-list"></i></a>
               </div>
             </div>
-            <div class="uk-padding-small uk-width-medium-2-3 uk-width-small-4-5 uk-width-7-10">
-              <form class="uk-form uk-float-right">
+            <div class=" uk-width-medium-2-3 uk-width-small-1-1 uk-width-1-1 uk-text-center-small">
+              <form class="uk-form">
                 <fieldset data-uk-margin>
-                  <select class="f_sortby" name="sortby">
-                    <option value="pagetitle">по названию</option>
-                    <option value="price">по цене</option>
-                    <option value="publishedon">по дате</option>
-                  </select>
-                  <select class="f_sortdir" name="sortdir">
-                    <option value="asc">по возростанию</option>
-                    <option value="desc">по убыванию</option>
-                  </select>
+                  <div class="uk-grid">
+                    <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                      <div class="uk-width-grid">
+                      <select class="f_sortby uk-width-1-1" name="sortby">
+                        <option value="pagetitle">по названию</option>
+                        <option value="price">по цене</option>
+                        <option value="publishedon">по дате</option>
+                      </select>
+                      </div>
+                    </div>
+                    <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                      <div class="uk-width-grid">
+                      <select class="f_sortdir uk-width-1-1" name="sortdir">
+                        <option value="asc">по возростанию</option>
+                        <option value="desc">по убыванию</option>
+                      </select>
+                      </div>
+                    </div>
+                  </div>
                 </fieldset>
               </form>
             </div>
