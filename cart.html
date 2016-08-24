@@ -189,7 +189,7 @@
       <div class="uk-width-1-1">
         <h1>Оформление заказа</h1>
         <div class="uk-grid">
-          <div class="uk-width-3-6">
+          <div class="uk-width-2-6">
             <ul class="uk-tab" data-uk-tab="{connect:'#tab-content'}">
               <li class="uk-width-1-2 uk-text-center uk-active"><a href="#">Новый покупатель</a></li>
               <li class="uk-width-1-2 uk-text-center"><a href="#">Постоянный клиент</a></li>
@@ -200,39 +200,46 @@
                 <form class="uk-form uk-form-stacked">
                   <div data-uk-margin="{cls:'uk-margin-top'}">
                     <div class="uk-grid uk-grid-small" uk-text-center">
-                      <div class="uk-width-1-2 uk-margin-bottom">
-                        <label class="uk-form-label" for="">Ваше имя <span class="required uk-text-danger">*</span></label>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Имя <span class="required uk-text-danger">*</span></label>
                         <input type="text" placeholder="Владимир" class="uk-width-1-1">
                       </div>
-                      <div class="uk-width-1-2 uk-margin-bottom">
-                        <label class="uk-form-label" for="">Ваша фамилия <span class="required uk-text-danger">*</span></label>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Фамилия <span class="required uk-text-danger">*</span></label>
                         <input type="text" placeholder="Пукин" class="uk-width-1-1">
                       </div>
-                      <div class="uk-width-1-2 uk-margin-bottom">
+                      <div class="uk-width-1-1 uk-margin-bottom">
                         <label class="uk-form-label" for="">Телефон</label>
                         <input type="text" placeholder="+38 (099) 061-74-40" class="uk-width-1-1">
                       </div>
-                      <div class="uk-width-1-2 uk-margin-bottom">
-                        <label class="uk-form-label" for="">Электронная почта <span class="required uk-text-danger">*</span></label>
-                        <input type="text" placeholder="Email" class="uk-width-1-1">
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Email <span class="required uk-text-danger">*</span></label>
+                        <input type="text" placeholder="user@gmail.com" class="uk-width-1-1">
                       </div>
-                      <div class="uk-width-1-2 uk-margin-bottom">
+                      <div class="uk-width-1-1 uk-margin-bottom">
                         <label class="uk-form-label" for="">Пароль <span class="required uk-text-danger">*</span></label>
-                        <input type="text" placeholder="******" class="uk-width-1-1">
-                      </div>
-                      <div class="uk-width-1-2 uk-margin-bottom">
-                        <label class="uk-form-label" for="">Пароль (повторно) <span class="required uk-text-danger">*</span></label>
                         <input type="text" placeholder="******" class="uk-width-1-1">
                       </div>
                       <div class="uk-width-1-1 uk-margin-bottom">
                         <label class="uk-form-label" for="">Адрес</label>
-                        <input type="text" placeholder="Область, район, населённый пункт, улица, дом, квартира" class="uk-width-1-1">
+                        <input type="text" placeholder="Страна, область, район, населённый пункт, улица, дом, квартира" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Вариант доставки</label>
+                        <select class="uk-width-1-1">
+                          <option>Курьер</option>
+                          <option>Самовывоз</option>
+                        </select>
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Вариант оплаты</label>
+                        <select class="uk-width-1-1">
+                          <option>Наличными</option>
+                          <option>Банковской картой (онлайн)</option>
+                        </select>
                       </div>
                       <div class="uk-width-1-1 uk-text-center uk-margin-bottom">
-                        <label><input type="checkbox" checked> Подписаться на новости и акции магазина</label>
-                      </div>
-                      <div class="uk-width-1-1 uk-text-center">
-                        <button class="uk-button uk-width-1-1 uk-button-danger uk-text-center uk-button-large"><i class="uk-icon-plus-circle"></i> Регистрация</button>
+                        <label><input type="checkbox" checked> Зарегистрироваться на сайте</label>
                       </div>
                     </div>
                   </div>
@@ -243,11 +250,11 @@
                 <form class="uk-form uk-form-stacked">
                   <div data-uk-margin="{cls: 'uk-margin-top'}">
                     <div class="uk-grid uk-grid-small" uk-text-center">
-                      <div class="uk-width-1-2 uk-margin-bottom">
+                      <div class="uk-width-1-1 uk-margin-bottom">
                         <label class="uk-form-label" for="">Электронная почта</label>
                         <input type="text" placeholder="Email" class="uk-width-1-1">
                       </div>
-                      <div class="uk-width-1-2 uk-margin-bottom">
+                      <div class="uk-width-1-1 uk-margin-bottom">
                         <label class="uk-form-label" for="">Пароль</label>
                         <input type="password" placeholder="******" class="uk-width-1-1">
                       </div>
@@ -257,16 +264,16 @@
                         <a class="uk-margin-left" href="#">Потеряли пароль?</a>
                       </div>
                       <div class="uk-width-1-1 uk-text-center">
-                        <button class="uk-button uk-width-1-1 uk-button-success uk-text-center uk-button-large"><i class="uk-icon-sign-in"></i> Войти</button>
+                        <button class="uk-button uk-width-1-2 uk-align-center uk-text-center uk-button-large"><i class="uk-icon-sign-in"></i> Войти</button>
                       </div>
                       <div class="uk-width-1-1 uk-margin">
                         <p class="uk-text-center">Авторизация через социальные сети</p>
                       </div>
                       <div class="uk-width-1-1 uk-text-center">
-                        <i class="uk-icon-vk uk-icon-button"></i>
-                        <i class="uk-icon-facebook uk-icon-button"></i>
-                        <i class="uk-icon-twitter uk-icon-button"></i>
-                        <i class="uk-icon-odnoklassniki uk-icon-button"></i>
+                        <a href="#"><i class="uk-icon-vk uk-icon-button"></i></a>
+                        <a href="#"><i class="uk-icon-facebook uk-icon-button"></i></a>
+                        <a href="#"><i class="uk-icon-twitter uk-icon-button"></i></a>
+                        <a href="#"><i class="uk-icon-odnoklassniki uk-icon-button"></i></a>
                       </div>
                     </div>
                   </div>
@@ -274,23 +281,14 @@
               </li>
             </ul>
           </div>
-          <div class="uk-width-3-6">
+          <div class="uk-width-4-6">
+            <h3>Корзина</h3>
             <div class="uk-overflow-container">
-              <form action="" class="uk-form uk-table-hover">
+              <form action="" class="uk-form uk-table-hover uk-table-striped">
                 <table class="uk-table">
-                  <thead>
-                    <tr>
-                      <th>Фото</th>
-                      <th>Описание</th>
-                      <th>Размер</th>
-                      <th>К-во</th>
-                      <th>Цена</th>
-                      <th>Удалить</th>
-                    </tr>
-                  </thead>
                   <tbody>
                     <tr>
-                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle" src="img/catalog/356340_crop.jpg" alt="" width="100"></td>
+                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle uk-thumbnail" src="img/catalog/356340_crop.jpg" alt="" width="100"></td>
                       <td class="uk-vertical-align">
                         <div class="uk-vertical-align-middle"><a href="#">467</a>
                           <br><span class="params">Серый</span></div>
@@ -301,7 +299,7 @@
                       <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><a href="#" class="uk-icon-trash uk-text-center uk-text-large"></a></span></td>
                     </tr>
                     <tr>
-                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle" src="img/catalog/358140_crop.jpg" alt="" width="100"></td>
+                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle uk-thumbnail" src="img/catalog/358140_crop.jpg" alt="" width="100"></td>
                       <td class="uk-vertical-align">
                         <div class="uk-vertical-align-middle"><a href="#">467</a>
                           <br><span class="params">Красный</span></div>
@@ -312,7 +310,7 @@
                       <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><a href="#" class="uk-icon-trash uk-text-center uk-text-large"></a></span></td>
                     </tr>
                     <tr>
-                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle" src="img/catalog/358720_crop.jpg" alt="" width="100"></td>
+                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle uk-thumbnail" src="img/catalog/358720_crop.jpg" alt="" width="100"></td>
                       <td class="uk-vertical-align">
                         <div class="uk-vertical-align-middle"><a href="#">467</a>
                           <br><span class="params">Белый</span></div>
@@ -324,6 +322,20 @@
                     </tr>
                   </tbody>
                 </table>
+                <div class="uk-grid uk-margin-bottom">
+                  <div class="uk-width-medium-1-1">
+                    <span class="uk-float-left">Общая сумма:</span>
+                    <span class="uk-float-right">209.80$</span>
+                    <br>
+                    <span class="uk-float-left">Доставка:</span>
+                    <span class="uk-float-right">0$</span>
+                    <br>
+                    <hr>
+                    <span class="uk-float-left uk-text-bold">ИТОГО:</span>
+                    <span class="uk-float-right">$209.80</span>
+                  </div>
+                </div>
+                <div class="uk-button uk-button-large uk-button-success uk-width-1-1"><i class="uk-icon-paper-plane"></i> &nbsp;Отправить заказ</div>
               </form>
             </div>
           </div>
@@ -349,7 +361,7 @@
           <h3 class="uk-margin-top">Контакты</h3>
           <div>+375 29 79-108-79 (МТС)</div>
           <div>+796 45 33-700-94 (MTC)</div>
-          <div><i class="uk-icon-industry "></i> Беларусь, г. Брест, ул. Мошенского, 78</div>
+          <div><i class="uk-icon-industry"></i> Беларусь, г. Брест, ул. Мошенского, 78</div>
           <i class="uk-icon-map"></i> <a href="#">Посмотреть на карте </a>
           <br>
           <!-- <i class="uk-icon-paper-plane"></i>  --><a href="mailto:#">triko_by@mail.ru</a>
@@ -361,7 +373,7 @@
             <!-- <div class="uk-form-icon uk-width-1-1"> -->
             <!-- <i class="uk-icon-envelope"></i> -->
             <input class="uk-width-1-1 uk-margin-small-bottom" type="text" placeholder="Введите свой email">
-            <button class="uk-width-1-1 uk-button"><i class="uk-icon-paper-plane"></i> Подписаться</button>
+            <button class="uk-width-1-1 uk-button"><i class="uk-icon-envelope-o"></i> Подписаться</button>
             <!-- </div> -->
           </form>
         </div>
