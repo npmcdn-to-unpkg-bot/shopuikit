@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"uk-ver",
+				"uk-vertical-align-middle 	UIkit class"
+			],
+			[
 				"uk-wi",
 				"uk-width-1-3"
 			],
@@ -144,18 +148,10 @@
 	"buffers":
 	[
 		{
-			"file": "product-not-avaliable.html",
+			"file": "cart.html",
 			"settings":
 			{
-				"buffer_size": 39178,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "product.html",
-			"settings":
-			{
-				"buffer_size": 39833,
+				"buffer_size": 20018,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +159,7 @@
 			"file": "css/main.less",
 			"settings":
 			{
-				"buffer_size": 3631,
+				"buffer_size": 3975,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,7 +167,7 @@
 			"file": "tasks.todo",
 			"settings":
 			{
-				"buffer_size": 1223,
+				"buffer_size": 1180,
 				"line_ending": "Windows"
 			}
 		}
@@ -183,13 +179,21 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 150.0,
 		"last_filter": "wrap",
 		"selected_items":
 		[
 			[
 				"wrap",
 				"Word Wrap: Toggle"
+			],
+			[
+				"emmet ima",
+				"Emmet: Update Image Size"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
 			],
 			[
 				"evernote sea",
@@ -312,10 +316,6 @@
 				"W3C Validators: Validate HTML5"
 			],
 			[
-				"set html",
-				"Set Syntax: HTML"
-			],
-			[
 				"word",
 				"Word Wrap: Toggle"
 			],
@@ -417,8 +417,10 @@
 	],
 	"file_history":
 	[
-		"/D/clouds/Dropbox/sandbox/shopuikit/catalog.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/product.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/product-not-avaliable.html",
+		"/D/install/sublime/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/D/clouds/Dropbox/sandbox/shopuikit/catalog.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/.gitignore",
 		"/D/clouds/Dropbox/sandbox/mischeryakov/text.txt",
 		"/C/Users/Vladimir Kamuz/Downloads/exp_18_08_16__17_51_13.csv",
@@ -426,7 +428,6 @@
 		"/D/clouds/Dropbox/sandbox/shopuikit/faq.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/blog-post.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.css",
-		"/D/clouds/Dropbox/sandbox/shopuikit/product-not-avaliable.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/product-second.html",
 		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/02_frontend/howto/preloader/preloader.md",
 		"/D/clouds/Dropbox/sandbox/preloader/css/main.css",
@@ -445,7 +446,6 @@
 		"/D/clouds/Dropbox/sandbox/shopuikit/index.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/price.html",
 		"/C/Users/Vladimir Kamuz/Desktop/preloader.md",
-		"/D/install/sublime/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/C/Users/Vladimir Kamuz/AppData/Roaming/Brackets/extensions/user/brackets-fonts/main.js",
 		"/D/clouds/Dropbox/sandbox/shopuikit/test.html",
 		"/C/Users/Vladimir Kamuz/Desktop/sound.txt",
@@ -570,6 +570,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"uk-width-1-2",
+			"uk-form-large",
+			"iv class=\"uk-width-1-1\"",
+			"<span class=\"uk-vertical-align-middle\"><a href=\"#\">467</a> </span>",
+			"span class=\"uk-vertical-align-middle\"",
+			" / Сирень",
+			"input type=\"text\"",
+			"input type=\"text\" ",
+			"x ",
 			"1-10",
 			"truck",
 			"uk-active",
@@ -688,16 +697,7 @@
 			"<!-- ",
 			"<h3",
 			"h3",
-			"2-10",
-			"medium",
-			"fa fa",
-			"2",
-			"4",
-			"marginBottom",
-			"marginBottomSmall",
-			"marginBottom",
-			"uk-width-small-2-4 uk-width-medium-1-4",
-			"uk-width-1-4"
+			"2-10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -716,24 +716,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "product-not-avaliable.html",
+					"file": "cart.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39178,
+						"buffer_size": 20018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16390,
-								15135
+								9933,
+								9933
 							]
 						],
 						"settings":
@@ -741,60 +741,30 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4287.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "product.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 39833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16603,
-								16603
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 4661.0,
+						"translation.y": 2825.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "css/main.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3631,
+						"buffer_size": 3975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3465,
-								3465
+								3790,
+								3790
 							]
 						],
 						"settings":
@@ -804,27 +774,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2205.0,
+						"translation.y": 2565.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "tasks.todo",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1223,
+						"buffer_size": 1180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								646,
-								646
+								1008,
+								1008
 							]
 						],
 						"settings":
@@ -1305,7 +1275,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
