@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"uk-thumb",
+				"uk-thumbnail 	UIkit class"
+			],
+			[
 				"uk-ver",
 				"uk-vertical-align-middle 	UIkit class"
 			],
@@ -147,30 +151,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "cart.html",
-			"settings":
-			{
-				"buffer_size": 20018,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/main.less",
-			"settings":
-			{
-				"buffer_size": 3975,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tasks.todo",
-			"settings":
-			{
-				"buffer_size": 1180,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -179,13 +159,21 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 150.0,
+		"height": 127.0,
 		"last_filter": "wrap",
 		"selected_items":
 		[
 			[
 				"wrap",
 				"Word Wrap: Toggle"
+			],
+			[
+				"evernote ne",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
 			],
 			[
 				"emmet ima",
@@ -413,18 +401,39 @@
 	},
 	"expanded_folders":
 	[
-		"/D/clouds/Dropbox/sandbox/shopuikit"
 	],
 	"file_history":
 	[
+		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/frameworks/revealjs/revealjs.md",
+		"/D/clouds/Dropbox/sandbox/revealjs/index.html",
+		"/D/clouds/Dropbox/sandbox/clientserver/publish/web/clientserver.html",
+		"/D/study/revealjs/Lynda. Online Presentations with reveal.js/Ex_Files_OPwRJS/Ex_Files_OPwRJS/Exercise Files/04_06/working folder/clientserver/publish/web/clientserver.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/single.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.less",
+		"/D/clouds/Dropbox/sandbox/docs/assets/templates/custom/css/main.css",
+		"/D/clouds/Dropbox/sandbox/shopuikit/tasks.todo",
+		"/D/install/nero/Installation.txt",
+		"/C/Program Files/Nero/Nero 10/Serial.txt",
+		"/C/Users/Vladimir Kamuz/Desktop/html-entity.md",
+		"/D/clouds/Dropbox/sandbox/revealjs/test/examples/barebones.html",
+		"/D/clouds/Dropbox/sandbox/relealjs/02_02/working folder/reveal/template.html",
+		"/C/Users/Vladimir Kamuz/Desktop/revealjs.md",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/css/theme/beige.css",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/template.html",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/examples/barebones.html",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/plugin/remotes/remotes.js",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/plugin/markdown/example.html",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/plugin/print-pdf/print-pdf.js",
+		"/D/clouds/Dropbox/sandbox/docs/core/lexicon/ar/default.inc.php",
+		"/D/clouds/Dropbox/sandbox/relealjs/01_04/working folder/reveal/original.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/cart.html",
+		"/D/clouds/Dropbox/sandbox/shopuikit/.gitignore",
 		"/D/clouds/Dropbox/sandbox/shopuikit/product.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/product-not-avaliable.html",
 		"/D/install/sublime/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/D/clouds/Dropbox/sandbox/shopuikit/catalog.html",
-		"/D/clouds/Dropbox/sandbox/shopuikit/.gitignore",
 		"/D/clouds/Dropbox/sandbox/mischeryakov/text.txt",
 		"/C/Users/Vladimir Kamuz/Downloads/exp_18_08_16__17_51_13.csv",
-		"/D/clouds/Dropbox/sandbox/shopuikit/single.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/faq.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/blog-post.html",
 		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.css",
@@ -439,7 +448,6 @@
 		"/D/install/sublime/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Vladimir Kamuz/Desktop/nup.md",
 		"/D/clouds/Dropbox/sandbox/shopuikit/js/main.js",
-		"/D/clouds/Dropbox/sandbox/shopuikit/css/main.less",
 		"/D/clouds/Dropbox/sandbox/sublime/Preferences.sublime-settings",
 		"/D/clouds/Dropbox/sandbox/shopuikit/css/test.css",
 		"/D/clouds/Dropbox/sandbox/sublime/Default (Windows).sublime-keymap",
@@ -523,28 +531,7 @@
 		"/D/clouds/Dropbox/sandbox/uikit/composer.json",
 		"/D/clouds/Dropbox/sandbox/shopuikit/package.json",
 		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulpo-connect.md",
-		"/D/clouds/Dropbox/sandbox/shopuikit/.gitingore",
-		"/D/install/sublime/Data/Packages/Emmet/Default (Windows).sublime-keymap",
-		"/D/install/sublime/Data/Packages/Emmet/Emmet.sublime-settings",
-		"/D/clouds/Dropbox/sandbox/gulpjs/gulpfile.js",
-		"/D/clouds/Dropbox/sandbox/gulpjs/package.json",
-		"/D/clouds/Dropbox/sandbox/uikitstart/gulpfile.js",
-		"/D/clouds/Dropbox/sandbox/uikit/vendor/jquery.less.js",
-		"/C/Users/Vladimir Kamuz/Desktop/nwb.txt",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/coffee/main.coffee",
-		"/D/clouds/Dropbox/sandbox/uikitstart/index.html",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/coffee/secondary.coffee",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/less/main.less",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/css/less.css",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/js/main.js",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/css/main.css",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/js/coffee.js",
-		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/types_of_data.md",
-		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/install.md",
-		"/D/clouds/Dropbox/sandbox/uikitstart/app/less/secondary.less",
-		"/D/clouds/Dropbox/sandbox/uikitstart/dist/css/all.css",
-		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/preprocessor/coffeescript/jquery.md",
-		"/D/clouds/Dropbox/sandbox/docs/assets/docs/ru/web/06_tools/task_runner/gulpjs/gulpjs.md"
+		"/D/clouds/Dropbox/sandbox/shopuikit/.gitingore"
 	],
 	"find":
 	{
@@ -570,6 +557,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"",
+			"\");\n",
+			"\\",
+			":",
+			"**",
+			"async",
+			"async: true",
+			"script",
+			"sortable",
+			" sortable",
+			"data-fragment-index",
+			"addeve",
+			"togglePause",
+			"слайду",
+			"##",
+			"../..",
+			"1-2",
+			" \"",
+			"<img class=\"uk-vertical-align-middle\"",
+			" class=\"uk-vertical-align-middle\"",
+			"uk-vertical-align-middle",
+			"modx",
+			" \"",
+			"uk-width",
+			"9-10",
+			"1-10",
+			" width=\"100\"",
+			"label ",
 			"uk-width-1-2",
 			"uk-form-large",
 			"iv class=\"uk-width-1-1\"",
@@ -669,35 +684,7 @@
 			"<h3",
 			"h3>",
 			"product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-1-2",
-			"uk-width-medium-1-3 uk-width-1-2",
-			"product uk-panel uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2",
-			"product uk-panel uk-width-medium-1-3 uk-width-small-1-3",
-			"product uk-panel uk-width-medium-1-3 uk-width-small-2-4 uk-width-1-1",
-			"product uk-panel uk-width-medium-1-4 uk-width-small-2-4",
-			"product  uk-panel",
-			"product uk-panel uk-width-medium-1-4 uk-width-small-2-4",
-			"large-1-4 uk-width-medium-1-2",
-			"medium-1-3",
-			"1-4",
-			"uk-width-large-1-2 ",
-			"medium",
-			"2",
-			"<div class=\"uk-badge uk-panel-badge uk-margin-small-top uk-margin-small-right\">ПОПУЛЯРНОЕ</div>",
-			":",
-			"uk-width-medium-1-4",
-			"width=\"200\" height=\"300\"",
-			"uk-panel",
-			"holder.js/200",
-			"1-3",
-			"3",
-			"    \n",
-			"uk-container uk-container-center",
-			"images",
-			"<span class=\"uk-hidden-small\"> ",
-			"<!-- ",
-			"<h3",
-			"h3",
-			"2-10"
+			"uk-width-medium-1-3 uk-width-1-2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -716,104 +703,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "cart.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20018,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9933,
-								9933
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2825.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/main.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3790,
-								3790
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2565.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "tasks.todo",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1008,
-								1008
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -854,7 +751,7 @@
 	"project": "shopuikit.sublime-project",
 	"replace":
 	{
-		"height": 82.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -864,16 +761,36 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"docs\\assets\\templates\\custom\\css\\main.css"
+			],
+			[
+				"defa",
+				"docs\\core\\lexicon\\ar\\default.inc.php"
+			],
+			[
+				"sing",
+				"shopuikit\\single.html"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"produ",
+				"product.html"
+			],
+			[
+				"product",
+				"product-not-avaliable.html"
+			],
+			[
 				"main.le",
 				"shopuikit\\css\\main.less"
 			],
 			[
 				"faq",
 				"shopuikit\\faq.html"
-			],
-			[
-				"sing",
-				"shopuikit\\single.html"
 			],
 			[
 				"single",
@@ -886,10 +803,6 @@
 			[
 				"index",
 				"shopuikit\\index.html"
-			],
-			[
-				"produ",
-				"shopuikit\\product.html"
 			],
 			[
 				"catalo",
@@ -906,10 +819,6 @@
 			[
 				"main.less",
 				"shopuikit\\css\\main.less"
-			],
-			[
-				"main",
-				"shopuikit\\css\\main.css"
 			],
 			[
 				"index_o",
@@ -1275,8 +1184,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 232.0,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
