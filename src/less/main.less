@@ -67,12 +67,15 @@ body, *, h1, h2, h3, .uk-navbar-nav>li>a {
 #header {
   padding: 20px 0;
   background-color: #fff;
+  #logo {
+    width: 180px;
+  }
   #logo-icon {
     width: 50px;
     font-size: 52px;
     margin-bottom: 0;
   }
-  .name #logo {
+  #logo-text {
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
@@ -196,8 +199,7 @@ footer {
     border-radius: 50%;
   }
 }
-
-.shop-cart-button{
+.shop-cart-button {
   line-height: 38px;
 }
 
@@ -214,4 +216,14 @@ footer {
 }
 #shop-cart .uk-table span.params {
   color: #999;
+}
+
+/*--------------------------------------------------
+  MOBILE
+--------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+  #logo {
+    margin: 0 auto 20px;
+  }
 }
