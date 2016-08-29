@@ -17,36 +17,7 @@
 
 <body id="top">
 <div id="page-preloader"><span class="spinner"></span></div>
-  <div class="toolbar" data-uk-sticky>
-    <div class="uk-container uk-container-center">
-      <div class="uk-grid">
-        <div class="uk-width-medium-1-3 uk-width-small-2-5 uk-text-center-small">
-          <div class="user">
-            <i class="uk-icon-sign-in" aria-hidden="true"></i>
-            <a href="#login" data-uk-modal>Вход / Регистрация</a>
-          </div>
-        </div>
-        <div class="uk-width-medium-1-3 uk-hidden-small">
-          <div id="currency-block" class="uk-text-center">
-            <select style="display:none;" id="site_currency" name="curency">
-              <option id="usd_curr" value="2">usd</option>
-              <option id="rub_curr" value="3">rub</option>
-              <option id="eur_curr" value="4">eur</option>
-            </select>
-            <a class="usd currency" data-id="2">USD</a> |
-            <a class="eur currency" data-id="4">EUR</a> |
-            <a class="rub currency active" data-id="3">RUB</a>
-          </div>
-        </div>
-        <div id="cart-wish-compare" class="uk-width-medium-1-3 uk-width-small-3-5 uk-text-center-small uk-text-right">
-          <i class="uk-icon-balance-scale" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification ">0</span></a></a>
-          | <i class="uk-icon-heart" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification ">0</span></a></a>
-          | <i class="uk-icon-shopping-basket" aria-hidden="true"> <a data-uk-offcanvas="{target:'#offcanvas-cart'}"></i>1200.80$ <span class="uk-badge uk-badge-notification ">2</span></a>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  //= chunks/toolbar.html
   <div id="offcanvas-cart" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
       <div class="uk-panel">
@@ -83,79 +54,8 @@
       </div>
     </div>
   </div>
-  <div id="header">
-    <div class="uk-container uk-container-center">
-      <header class="uk-grid">
-        <div class="uk-width-large-1-3 name uk-width-medium-1-3 uk-width-small-1-2 uk-grid-width-1-1 uk-text-center-small">
-          <div id="logo">MODX</div>
-          <div class="slogan">Awesome E-Store</div>
-        </div>
-        <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-hidden-small">
-          <form class="uk-form">
-            <a href="" class="">Использовать расширенный поиск</a>
-            <div class="uk-form-icon uk-width-">
-              <input type="text" placeholder="Поиск по каталогу..." class="uk-width-1-1">
-              <i class="uk-icon-search"></i>
-            </div>
-          </form>
-        </div>
-        <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-2 uk-grid-width-1-1 uk-text-right uk-text-center-small">
-          <a href="#modal6" data-uk-modal="{center:true}">Заказать обратный звонок</a>
-          <div id="modal6" class="uk-modal">
-            <div class="uk-modal-dialog">
-              <button type="button" class="uk-modal-close uk-close"></button>
-              <div class="uk-modal-header">
-                <h2 class="uk-text-center">Заказать обратный звонок</h2>
-              </div>
-              <form class="uk-form">
-                <div class="uk-grid uk-grid-small">
-                  <div class="uk-width-1-1">
-                    <input type="text" placeholder="+375 29-79-108-79" class="uk-width-1-1 uk-form-large uk-margin-bottom">
-                  </div>
-                  <div class="uk-width-1-1">
-                    <button type="submit" class="uk-width-1-1 uk-button uk-button-large uk-button-primary">Отправить</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79</div>
-        </div>
-      </header>
-    </div>
-  </div>
-  <nav id="main-nav" class="uk-navbar">
-    <div class="uk-container uk-container-center">
-      <ul class="uk-navbar-nav uk-hidden-small">
-        <li class="uk-active"><a href="index.html">Главная</a></li>
-        <li class="uk-parent" data-uk-dropdown>
-          <a href="catalog.html">Каталог</a>
-          <div class="uk-dropdown uk-dropdown-navbar">
-            <ul class="uk-nav uk-nav-navbar">
-              <li><a href="#">Item</a></li>
-              <li><a href="#">Another item</a></li>
-              <li class="uk-nav-header">Header</li>
-              <li><a href="#">Item</a></li>
-              <li><a href="#">Another item</a></li>
-              <li class="uk-nav-divider"></li>
-              <li><a href="#">Separated item</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><a href="">Оплата</a></li>
-        <li><a href="">Доставка</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
-      <a href="#offcanvas-menu" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-      <div class="uk-navbar-flip uk-visible-small">
-        <div class="uk-navbar-content">
-          <form class="uk-search">
-            <input class="uk-search-field" type="search" placeholder="Поиск...">
-          </form>
-        </div>
-      </div>
-    </div>
-  </nav>
+  //= chunks/header.html
+  //= chunks/top-menu.html
   <div id="offcanvas-menu" class="uk-offcanvas">
     <div class="uk-offcanvas-bar">
       <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>

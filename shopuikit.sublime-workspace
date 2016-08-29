@@ -151,6 +151,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "cart.html",
+			"settings":
+			{
+				"buffer_size": 24409,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tasks.todo",
+			"settings":
+			{
+				"buffer_size": 1469,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -401,6 +425,7 @@
 	},
 	"expanded_folders":
 	[
+		"/D/clouds/Dropbox/sandbox/shopuikit"
 	],
 	"file_history":
 	[
@@ -703,8 +728,95 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "cart.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8406,
+								8406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2774.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tasks.todo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1099,
+								1099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello</title>
+  <link rel="stylesheet" href="css/uikit.css">
+  <!-- <link rel="stylesheet" href="css/flat.css"> -->
+  <link rel="stylesheet" href="css/components/slideshow.css">
+  <link rel="stylesheet" href="css/components/dotnav.css">
+  <link rel="stylesheet" href="css/components/slidenav.css">
+  <link rel="stylesheet" href="css/components/accordion.css">
+  <link rel="stylesheet" href="css/components/search.css">
+  <link rel="stylesheet" href="css/components/form-advanced.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components/sticky.css">
+</head>
+
+<body id="top">
+  <div class="toolbar" data-uk-sticky>
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-medium-1-3 uk-width-small-2-5 uk-text-center-small">
+          <div class="user">
+            <i class="uk-icon-user" aria-hidden="true"></i>
+            <a href="#login" data-uk-modal>Вход / Регистрация</a>
+          </div>
+        </div>
+        <div class="uk-width-medium-1-3 uk-hidden-small">
+          <div id="currency-block" class="uk-text-center">
+            <select style="display:none;" id="site_currency" name="curency">
+              <option id="usd_curr" value="2">usd</option>
+              <option id="rub_curr" value="3">rub</option>
+              <option id="eur_curr" value="4">eur</option>
+            </select>
+            <a class="usd currency" data-id="2">USD</a> |
+            <a class="eur currency" data-id="4">EUR</a> |
+            <a class="rub currency active" data-id="3">RUB</a>
+          </div>
+        </div>
+        <div id="cart-wish-compare" class="uk-width-medium-1-3 uk-width-small-3-5 uk-text-center-small uk-text-right">
+          <i class="uk-icon-balance-scale" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification">0</span></a></a>
+          | <i class="uk-icon-heart" aria-hidden="true"></i> <a href=""><span class="uk-badge uk-badge-notification">0</span></a></a>
+          | <i class="uk-icon-shopping-basket" aria-hidden="true"> <a data-uk-offcanvas="{target:'#offcanvas-cart'}"></i>1200.80$ <span class="uk-badge uk-badge-notification">2</span></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="offcanvas-cart" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+      <div class="uk-panel">
+        <h3 class="uk-panel-title">Корзина</h3>
+        <table class="bh-offcanvas-shopping-cart uk-table uk-table-middle uk-margin-small-top uk-margin-bottom-remove">
+          <tbody>
+            <tr>
+              <td>
+                <a href="shop-singleproduct.html">
+                  <img src="img/shop_product-01-1.jpg" width="100" height="75" alt="Product Image">
+                </a>
+              </td>
+              <td>
+                <a class="bh-text-uppercase" href="shop-singleproduct.html">Workboots</a>
+                <br> $119.90
+              </td>
+              <td class="uk-text-center"><a href="#"><i class="uk-icon-times"></i></a></td>
+            </tr>
+            <tr>
+              <td>
+                <a href="shop-singleproduct.html">
+                  <img src="img/shop_product-07-1.jpg" width="100" height="75" alt="Product Image">
+                </a>
+              </td>
+              <td>
+                <a class="bh-text-uppercase" href="shop-singleproduct.html">Wayfarer Glasses</a>
+                <br> $89.90
+              </td>
+              <td class="uk-text-center"><a href="#"><i class="uk-icon-times"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="shop-checkout.html" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top">Перейти к корзине</a>
+      </div>
+    </div>
+  </div>
+  <div id="header">
+    <div class="uk-container uk-container-center">
+      <header class="uk-grid">
+        <div class="uk-width-large-1-3 name uk-width-medium-1-3 uk-width-small-1-2 uk-grid-width-1-1 uk-text-center-small">
+          <div id="logo-icon" class="uk-align-left">
+            <i class="uk-icon-modx"></i>
+          </div>
+          <div id="logo">MODX</div>
+          <div class="slogan">Awesome E-Store</div>
+        </div>
+        <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-hidden-small">
+          <form class="uk-form">
+            <a href="" class="">Использовать расширенный поиск</a>
+            <div class="uk-form-icon uk-width-">
+              <input type="text" placeholder="Поиск по каталогу..." class="uk-width-1-1">
+              <i class="uk-icon-search"></i>
+            </div>
+          </form>
+        </div>
+        <div class="uk-width-large-1-3 uk-width-medium-1-3 uk-width-small-1-2 uk-grid-width-1-1 uk-text-right uk-text-center-small">
+          <a href="#modal6" data-uk-modal="{center:true}">Заказать обратный звонок</a>
+          <div id="modal6" class="uk-modal">
+            <div class="uk-modal-dialog">
+              <button type="button" class="uk-modal-close uk-close"></button>
+              <div class="uk-modal-header">
+                <h2 class="uk-text-center">Заказать обратный звонок</h2>
+              </div>
+              <form class="uk-form">
+                <div class="uk-grid uk-grid-small">
+                  <div class="uk-width-1-1">
+                    <input type="text" placeholder="+375 29-79-108-79" class="uk-width-1-1 uk-form-large uk-margin-bottom">
+                  </div>
+                  <div class="uk-width-1-1">
+                    <button type="submit" class="uk-width-1-1 uk-button uk-button-large uk-button-primary">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="phone"><i class="uk-icon-volume-control-phone"></i> +375 29-79-108-79</div>
+        </div>
+      </header>
+    </div>
+  </div>
+  <nav id="main-nav" class="uk-navbar">
+    <div class="uk-container uk-container-center">
+      <ul class="uk-navbar-nav uk-hidden-small">
+        <li class="uk-active"><a href="index.html">Главная</a></li>
+        <li class="uk-parent" data-uk-dropdown>
+          <a href="">Каталог</a>
+          <div class="uk-dropdown uk-dropdown-navbar">
+            <ul class="uk-nav uk-nav-navbar">
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Another item</a></li>
+              <li class="uk-nav-header">Header</li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Another item</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#">Separated item</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="">Оплата</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <a href="#offcanvas-menu" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+      <div class="uk-navbar-flip uk-visible-small">
+        <div class="uk-navbar-content">
+          <form class="uk-search">
+            <input class="uk-search-field" type="search" placeholder="Поиск...">
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="offcanvas-menu" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+      <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
+        <li class="uk-active"><a href="">Главная</a></li>
+        <li class="uk-parent">
+          <a href="#">Каталог</a>
+          <ul class="uk-nav-sub">
+            <li><a href="">Куртки</a></li>
+            <li><a href="">Кардиганы</a></li>
+          </ul>
+        </li>
+        <li><a href="">Оплата</a></li>
+        <li><a href="">Доставка</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="uk-container uk-container-center">
+    <div id="content" class="uk-grid uk-margin-bottom">
+      <div class="uk-width-1-1">
+        <ul class="uk-breadcrumb uk-margin-bottom uk-margin-top">
+          <li><a href="">Главная</a></li>
+          <li><a href="">Каталог</a></li>
+          <li class="uk-active"><span>Категория</span></li>
+        </ul>
+      </div>
+      <div class="uk-width-1-1">
+        <h1>Оформление заказа</h1>
+        <div class="uk-grid">
+          <div class="uk-width-medium-2-6 uk-width-small-1-1">
+            <ul class="uk-tab" data-uk-tab="{connect:'#tab-content'}">
+              <li class="uk-width-1-2 uk-text-center uk-active"><a href="#">Новый покупатель</a></li>
+              <li class="uk-width-1-2 uk-text-center"><a href="#">Постоянный клиент</a></li>
+            </ul>
+            <ul id="tab-content" class="uk-switcher uk-margin">
+              <li>
+                <p>Consequatur odio amet repudiandae quaerat nemo similique architecto, laudantium obcaecati distinctio.</p>
+                <form class="uk-form uk-form-stacked">
+                  <div data-uk-margin="{cls:'uk-margin-top'}">
+                    <div class="uk-grid uk-grid-small" uk-text-center">
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Имя <span class="required uk-text-danger">*</span></label>
+                        <input type="text" placeholder="Владимир" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Фамилия <span class="required uk-text-danger">*</span></label>
+                        <input type="text" placeholder="Пукин" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Телефон</label>
+                        <input type="text" placeholder="+38 (099) 061-74-40" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Email <span class="required uk-text-danger">*</span></label>
+                        <input type="text" placeholder="user@gmail.com" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Пароль <span class="required uk-text-danger">*</span></label>
+                        <input type="text" placeholder="******" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Адрес</label>
+                        <input type="text" placeholder="Украина, 35000, г. Киев, ул. Ленина, 50, кв. 71" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Вариант доставки</label>
+                        <select class="uk-width-1-1">
+                          <option>Курьер</option>
+                          <option>Самовывоз</option>
+                        </select>
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Вариант оплаты</label>
+                        <select class="uk-width-1-1">
+                          <option>Наличными</option>
+                          <option>Банковской картой (онлайн)</option>
+                        </select>
+                      </div>
+                      <div class="uk-width-1-1 uk-text-center uk-margin-bottom">
+                        <label><input type="checkbox" checked> Зарегистрироваться на сайте</label>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </li>
+              <li>
+                <p>Consequatur odio amet repudiandae quaerat nemo similique architecto, laudantium obcaecati distinctio.</p>
+                <form class="uk-form uk-form-stacked">
+                  <div data-uk-margin="{cls: 'uk-margin-top'}">
+                    <div class="uk-grid uk-grid-small" uk-text-center">
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Email</label>
+                        <input type="text" placeholder="user@gmail.com" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-margin-bottom">
+                        <label class="uk-form-label" for="">Пароль</label>
+                        <input type="password" placeholder="******" class="uk-width-1-1">
+                      </div>
+                      <div class="uk-width-1-1 uk-text-center uk-margin-bottom">
+                        <label>
+                          <input type="checkbox"> Запомнить меня</label>
+                        <a class="uk-margin-left" href="#">Потеряли пароль?</a>
+                      </div>
+                      <div class="uk-width-1-1 uk-text-center">
+                        <button class="uk-button uk-width-1-2 uk-align-center uk-text-center uk-button-large"><i class="uk-icon-sign-in"></i> Войти</button>
+                      </div>
+                      <div class="uk-width-1-1 uk-text-center uk-margin-top">ИЛИ</div>
+                      <div class="uk-width-1-1 uk-margin">
+                        <p class="uk-text-center">Авторизироватся через социальные сети</p>
+                      </div>
+                      <div class="uk-width-1-1 uk-text-center">
+                        <a href="#"><i class="uk-icon-vk uk-icon-button"></i></a>
+                        <a href="#"><i class="uk-icon-facebook uk-icon-button"></i></a>
+                        <a href="#"><i class="uk-icon-twitter uk-icon-button"></i></a>
+                        <a href="#"><i class="uk-icon-odnoklassniki uk-icon-button"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-width-medium-4-6 uk-width-small-1-1">
+            <h3>Корзина</h3>
+            <div id="shop-cart" class="uk-overflow-container">
+              <form action="" class="uk-form uk-table-hover uk-table-striped">
+                <table class="uk-table">
+                  <tbody>
+                    <tr>
+                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle uk-thumbnail" src="img/catalog/356340_crop.jpg" alt="" width="100"></td>
+                      <td class="uk-vertical-align">
+                        <div class="uk-vertical-align-middle"><a href="#">467</a>
+                          <br><span class="params">Серый</span></div>
+                      </td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle">54</span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><input type="number" class="uk-form-width-mini" name="quantity" value="1"></span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle">42$</span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><a href="#" class="uk-icon-trash uk-text-center uk-text-large"></a></span></td>
+                    </tr>
+                    <tr>
+                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle uk-thumbnail" src="img/catalog/358140_crop.jpg" alt="" width="100"></td>
+                      <td class="uk-vertical-align">
+                        <div class="uk-vertical-align-middle"><a href="#">467</a>
+                          <br><span class="params">Красный</span></div>
+                      </td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle">54</span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><input type="number" class="uk-form-width-mini" name="quantity" value="1"></span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle">42$</span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><a href="#" class="uk-icon-trash uk-text-center uk-text-large"></a></span></td>
+                    </tr>
+                    <tr>
+                      <td class="uk-vertical-align"><img class="uk-vertical-align-middle uk-thumbnail" src="img/catalog/358720_crop.jpg" alt="" width="100"></td>
+                      <td class="uk-vertical-align">
+                        <div class="uk-vertical-align-middle"><a href="#">467</a>
+                          <br><span class="params">Белый</span></div>
+                      </td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle">54</span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><input type="number" class="uk-form-width-mini" name="quantity" value="1"></span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle">42$</span></td>
+                      <td class="uk-vertical-align"><span class="uk-vertical-align-middle"><a href="#" class="uk-icon-trash uk-text-center uk-text-large"></a></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="uk-grid uk-margin-bottom">
+                  <div class="uk-width-medium-1-1">
+                    <span class="uk-float-left">Общая сумма:</span>
+                    <span class="uk-float-right">209.80$</span>
+                    <br>
+                    <span class="uk-float-left">Доставка:</span>
+                    <span class="uk-float-right">-</span>
+                    <br>
+                    <hr>
+                    <span class="uk-float-left uk-text-bold">ИТОГО:</span>
+                    <span class="uk-float-right">209.80$</span>
+                  </div>
+                </div>
+                <div class="uk-button uk-button-large uk-button-success uk-width-1-1"><i class="uk-icon-paper-plane"></i> &nbsp;Отправить заказ</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Информация</h3>
+          <ul>
+            <li><a href="#">Обмен и возврат</a></li>
+            <li><a href="#">Бренды</a></li>
+            <li><a href="#">Акции и скидки</a></li>
+            <li><a href="#">Доставка и Оплата</a></li>
+            <li><a href="#">Размерные таблицы</a></li>
+            <li><a href="#">Публичный договор</a></li>
+          </ul>
+        </div>
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Контакты</h3>
+          <div>+375 29 79-108-79 (МТС)</div>
+          <div>+796 45 33-700-94 (MTC)</div>
+          <div><i class="uk-icon-industry"></i> Беларусь, г. Брест, ул. Мошенского, 78</div>
+          <i class="uk-icon-map"></i> <a href="#">Посмотреть на карте </a>
+          <br>
+          <!-- <i class="uk-icon-paper-plane"></i>  --><a href="mailto:#">triko_by@mail.ru</a>
+        </div>
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Подписка на новости</h3>
+          <p>Узнавайте первыми о новых акция, распродажах и новостях моды - подпишитесь на email рассылку</p>
+          <form class="uk-form uk-width-1-1">
+            <!-- <div class="uk-form-icon uk-width-1-1"> -->
+            <!-- <i class="uk-icon-envelope"></i> -->
+            <input class="uk-width-1-1 uk-margin-small-bottom" type="text" placeholder="Введите свой email">
+            <button class="uk-width-1-1 uk-button"><i class="uk-icon-envelope-o"></i> Подписаться</button>
+            <!-- </div> -->
+          </form>
+        </div>
+        <div class="uk-width-small-2-4 uk-width-large-1-4">
+          <h3 class="uk-margin-top">Социальные сети</h3>
+          <p>Следите за обновлением каталога на наших страницах в социальных сетях</p>
+          <div class="social-links">
+            <a href="#" class="uk-border-circle"><i class="uk-icon-vk"></i></a>
+            <a href="#" class="uk-border-circle"><i class="uk-icon-facebook"></i></a>
+            <a href="#" class="uk-border-circle"><i class="uk-icon-twitter"></i></a>
+            <a href="#" class="uk-border-circle"><i class="uk-icon-google-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copy uk-position-relative">
+    <div class="uk-container uk-container-center">
+      <div class="uk-grid">
+        <div class="uk-width-1-2">Made with <i class="uk-icon-heart uk-text-danger"></i> by <a href="https://github.com/kamuz/shopuikit" target="_blank">Vladimir Kamuz</a> © 2013 – 2016</div>
+        <div class="uk-width-1-2 uk-text-right"><a href="#">Создание интернет-магазина на MODX Revolution</a></div>
+        <a href="#top" id="to-up" class="uk-text-center uk-button" data-uk-smooth-scroll><i class="uk-icon-angle-double-up"></i></a>
+      </div>
+    </div>
+  </div>
+  <div id="login" class="uk-modal">
+    <div class="uk-modal-dialog">
+      <a class="uk-modal-close uk-close"></a>
+      <ul class="uk-tab uk-grid uk-grid-small uk-margin-top" data-uk-tab="{connect:'#login-tab'}">
+        <li class="uk-width-1-2 uk-text-large uk-active uk-text-center"><a href="#">Login</a></li>
+        <li class="uk-width-1-2 uk-text-large uk-text-center"><a href="#">Register</a></li>
+      </ul>
+      <ul id="login-tab" class="uk-switcher uk-margin">
+        <li class="uk-active">
+          <form class="uk-form">
+            <div class="uk-grid" data-uk-margin="{cls:'uk-margin-top'}">
+              <div class="uk-width-1-1 uk-text-center">
+                <h3>I'm already a member</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                  <br> sed diam nonumy eirmod tempor invidunt.</p>
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Username" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Password" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1 uk-text-center">
+                <label>
+                  <input type="checkbox"> Remember me</label>
+                <a class="uk-margin-left" href="#">Lost Password?</a>
+              </div>
+              <div class="uk-width-1-1 uk-text-center">
+                <button class="uk-button uk-text-center uk-button-large">Login</button>
+              </div>
+            </div>
+          </form>
+        </li>
+        <li>
+          <form class="uk-form">
+            <div class="uk-grid" data-uk-margin="{cls:'uk-margin-top'}">
+              <div class="uk-width-1-1 uk-text-center">
+                <h3>I'm new here</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                  <br> sed diam nonumy eirmod tempor invidunt.</p>
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Username" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1">
+                <input type="text" placeholder="Password" class="uk-form-large uk-width-1-1">
+              </div>
+              <div class="uk-width-1-1 uk-text-center">
+                <button class="uk-button uk-text-center uk-button-large">Register</button>
+              </div>
+            </div>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/uikit.js"></script>
+<script src="js/holder.min.js"></script>
+<script src="js/components/slideshow.js"></script>
+<script src="js/components/accordion.js"></script>
+<script src="js/components/search.min.js"></script>
+<script src="js/components/slideset.js"></script>
+<script src="js/components/sticky.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
