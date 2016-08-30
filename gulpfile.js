@@ -18,7 +18,6 @@ gulp.task('html', function() {
   return gulp.src('src/*.html')
   .pipe(rigger())
   .pipe(gulp.dest("build/"))
-  // .pipe(connect.reload())
 });
 
 gulp.task('less', function () {
