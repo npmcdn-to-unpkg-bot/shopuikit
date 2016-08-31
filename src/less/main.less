@@ -1,27 +1,16 @@
+/*--------------------------------------------------
+  BASIC AND LESS
+--------------------------------------------------*/
+
 // @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic&subset=latin,cyrillic-ext);
 body, *, h1, h2, h3, h4, h5, h6, .uk-navbar-nav>li>a {
   font-family: "Open Sans", sans-serif;
 }
-
-/*--------------------------------------------------
-  COLORS
---------------------------------------------------*/
-
 @lightGray: #4f5157;
 @darkGray: #414349;
 @colorGray: #adadae;
-
-/*--------------------------------------------------
-  MARGINS/PADDING
---------------------------------------------------*/
-
 @horizontalMargin: 20px;
 @padding-small: 10px;
-
-/*--------------------------------------------------
-  UIKIT
---------------------------------------------------*/
-
 .uk-padding-small {
   padding: @padding-small;
 }
@@ -208,8 +197,7 @@ footer {
 .shop-cart-button {
   line-height: 38px;
 }
-
-#content.product-page .uk-dropdown-blank{
+#content.product-page .uk-dropdown-blank {
   width: 138px;
 }
 
@@ -229,16 +217,32 @@ footer {
 }
 
 /*--------------------------------------------------
+  CONTACT
+--------------------------------------------------*/
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*--------------------------------------------------
   MOBILE
 --------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
-  #share-button button{
+  #share-button button {
     width: 100%;
   }
 }
-
-
 @media screen and (max-width: 480px) {
   #logo {
     display: block;
